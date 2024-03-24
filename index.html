@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/src/scss/style.css">
   <title>Header</title>
 </head>
+
 <body>
   <header class="header">
     <div class="container">
@@ -83,7 +85,8 @@
                 fill="white" />
             </svg>
           </div>
-          <div class="sign-in">
+          <div id="overlay"></div>
+          <div class="btnLogin-popup sign-in">
             <div class="sign-in-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="17" viewBox="0 0 14 17" fill="none">
                 <path
@@ -97,8 +100,101 @@
           </div>
         </div>
       </div>
+      <div class="header__overlay"></div>
     </div>
   </header>
+  <div class="wrapper">
+    <span class="icon-close"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
+      <path d="M9.7804 9.21974C10.0732 9.51252 10.0732 9.98762 9.7804 10.2804C9.48762 10.5732 9.01252 10.5732 8.71974 10.2804L4.99999 6.56065L1.28024 10.2804C0.987461 10.5732 0.512367 10.5732 0.219586 10.2804C-0.0731953 9.98762 -0.0731953 9.51252 0.219586 9.21974L3.93934 5.49999L0.219586 1.78024C-0.0731953 1.48746 -0.0731953 1.01237 0.219586 0.719586C0.512367 0.426805 0.987461 0.426805 1.28024 0.719586L4.99999 4.43934L8.71974 0.719586C9.01252 0.426805 9.48762 0.426805 9.7804 0.719586C10.0732 1.01237 10.0732 1.48746 9.7804 1.78024L6.06065 5.49999L9.7804 9.21974Z" fill="#101828"/>
+    </svg></span>
+    <div class="form-box login">
+      <h2>ĐĂNG NHẬP HOẶC TẠO TÀI KHOẢN</h2>
+      <form action="#">
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail"></ion-icon></span>
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+          <input type="password" required>
+          <label>Mật khẩu</label>
+        </div>
+        <div class="remember-forgot">
+          <a href="#">Quên mật khẩu?</a>
+        </div>
+        <button type="submit" class="btn">ĐĂNG NHẬP
+        </button>
+        <div class="social-sign-in">
+          <p class="option">
+            Hoặc đăng nhập bằng
+          </p>
+        </div>
+        <div class="method">
+          <div class="method__item">
+            <img src="/image/Vector.svg" alt="">
+            <p class="method-text">
+              Google
+            </p>
+          </div>
+          <div class="method__item">
+            <img src="/image/Vector-1.svg" alt="">
+            <p class="method-text">
+              Facebook
+            </p>
+          </div>
+        </div>
+        <div class="login-register">
+          <p>Bạn chưa có tài khoản? <a href="#" class="register-link">Đăng ký ngay!</a></p>
+        </div>
+      </form>
+    </div>
+
+    <div class="form-box register">
+      <h2>ĐĂNG KÝ TÀI KHOẢN</h2>
+      <form action="#">
+        <div class="input-box">
+          <span class="icon"><ion-icon name="person"></ion-icon></span>
+          <input type="text" required>
+          <label>Họ và tên</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail"></ion-icon></span>
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+          <input type="password" required>
+          <label>Mật khẩu</label>
+        </div>
+        <button type="submit" class="btn">TẠO TÀI KHOẢN
+        </button>
+        <div class="social-sign-in">
+          <p class="option">
+            Hoặc đăng nhập bằng
+          </p>
+        </div>
+        <div class="method">
+          <div class="method__item">
+            <img src="/image/Vector.svg" alt="">
+            <p class="method-text">
+              Google
+            </p>
+          </div>
+          <div class="method__item">
+            <img src="/image/Vector-1.svg" alt="">
+            <p class="method-text">
+              Facebook
+            </p>
+          </div>
+        </div>
+        <div class="login-register">
+          <p>Bạn đã có tài khoản? <a href="#" class="login-link">Đăng nhập!</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
   <div class="advert pt-30">
     <div class="container">
       <div class="row">
@@ -835,9 +931,9 @@
         <div class="section-title">
           LAPTOP GAMING BÁN CHẠY
         </div>
-          <p class="section-brand__link">
-            Xem tất cả
-          </p>
+        <p class="section-brand__link">
+          Xem tất cả
+        </p>
       </div>
       <div class="extra-news">
         <div class="row">
@@ -850,7 +946,7 @@
                 <div class="post__bottom pb-10">
                   <p class="post__bottom--date">Thứ 5 14/09/2023</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
-                    <circle cx="2" cy="2" r="2" fill="#667085"/>
+                    <circle cx="2" cy="2" r="2" fill="#667085" />
                   </svg>
                   <p class="post__bottom">Nguyễn Hải Long</p>
                 </div>
@@ -869,7 +965,7 @@
                 <div class="post__bottom pb-10">
                   <p class="post__bottom--date">Thứ 5 14/09/2023</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
-                    <circle cx="2" cy="2" r="2" fill="#667085"/>
+                    <circle cx="2" cy="2" r="2" fill="#667085" />
                   </svg>
                   <p class="post__bottom">Nguyễn Hải Long</p>
                 </div>
@@ -888,7 +984,7 @@
                 <div class="post__bottom pb-10">
                   <p class="post__bottom--date">Thứ 5 14/09/2023</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
-                    <circle cx="2" cy="2" r="2" fill="#667085"/>
+                    <circle cx="2" cy="2" r="2" fill="#667085" />
                   </svg>
                   <p class="post__bottom">Nguyễn Hải Long</p>
                 </div>
@@ -907,7 +1003,7 @@
                 <div class="post__bottom pb-10">
                   <p class="post__bottom--date">Thứ 5 14/09/2023</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
-                    <circle cx="2" cy="2" r="2" fill="#667085"/>
+                    <circle cx="2" cy="2" r="2" fill="#667085" />
                   </svg>
                   <p class="post__bottom">Nguyễn Hải Long</p>
                 </div>
@@ -986,5 +1082,7 @@
       </div>
     </section>
   </footer>
+  <script src="/src/index.js"></script>
 </body>
+
 </html>
