@@ -623,7 +623,7 @@ select {
 }
 
 .shop-sidebar__box {
-  border-bottom: 1px solid #E7E5EA;
+  border-bottom: 1px solid #e7e5ea;
   padding-top: 12px;
   padding-bottom: 17px;
   margin-bottom: 20px;
@@ -648,7 +648,7 @@ select {
 }
 
 .shop-main__title {
-  color: #2D3958;
+  color: #2d3958;
 }
 @media (max-width: 565px) {
   .shop-main__title {
@@ -718,14 +718,14 @@ select {
 
 .shop-filter__button {
   font-size: 14px;
-  color: #4F77FF;
+  color: #4f77ff;
 }
 
 .shop-main__header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #E7E5EA;
+  border-bottom: 1px solid #e7e5ea;
   align-items: center;
 }
 
@@ -740,7 +740,7 @@ select {
   font-weight: 500;
   text-align: center;
   padding: 15px 0 5px 0;
-  color: #2D3958;
+  color: #2d3958;
 }
 @media (max-width: 565px) {
   .shop-product__title {
