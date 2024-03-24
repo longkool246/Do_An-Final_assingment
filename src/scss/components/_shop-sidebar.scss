@@ -1,0 +1,135 @@
+.shop-sidebar {
+  width: 100%;
+  background: #fff;
+    padding: 16px 24px;
+    border-radius: 4px;
+box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.12);
+}
+
+.shop-sidebar__box {
+  border-bottom: 1px solid #E7E5EA;
+    padding-top: 12px;
+    padding-bottom: 17px;
+    margin-bottom: 20px;
+}
+
+.shop-sidebar__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.shop-sidebar__title {
+color: var(--text-primary);
+font-size: 16px;
+font-weight: 600;
+line-height: 1.5;
+}
+
+.shop-main__input {
+  margin-bottom: 9px;
+}
+
+.shop-main__title {
+  color: #2D3958;
+  @media (max-width: 565px) {
+    font-size: 16px;
+  }
+}
+
+.test {
+  display: none;
+}
+
+.choose__check label::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  border: none;
+  border: 1px solid #667085;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+
+.test:checked + label::before {
+  background-color: white;
+  text-align: center;
+  border: none;
+  background-color: var(--color-blue);
+  color: white;
+}
+
+
+.choose {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.choose__check {
+  display: flex;
+  gap: 10px;
+  label {
+    line-height: 1.71;
+  }
+}
+
+.choose--secondary {
+  padding-left: 30px;
+}
+
+.shop-filter {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media (max-width: 991px) {
+   flex-direction: column; 
+  }
+}
+
+.shop-filter__price {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.shop-filter__button {
+  font-size: 14px;
+  color: #4F77FF;
+}
+
+.shop-main__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E7E5EA;
+  align-items: center;
+}
+
+.shop-product {
+  img {
+    @media (max-width: 565px) {
+      width: 100%;
+    }
+  }
+}
+
+.shop-product__title {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  padding: 15px 0 5px 0;
+  color: #2D3958;
+  @media (max-width: 565px) {
+    font-size: 15px;
+  }
+}
+
+.shop-product__price {
+  text-align: center;
+  font-size: 16px;
+}

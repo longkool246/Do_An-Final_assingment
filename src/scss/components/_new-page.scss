@@ -1,0 +1,142 @@
+.hot-news__main {
+  position: relative;
+  height: 100%;
+  // img {
+  //   height: 100%;
+  // }
+}
+
+.hot-news__sub-item {
+  position: relative;
+}
+
+.hot-news__text {
+  position: absolute;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-left: 36px;
+  color: #fff;
+}
+
+.hot-news__text--big {
+  font-size: 36px;
+  top: 70%;
+}
+
+.hot-news__text--small {
+  top: 65%;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.hot-news__sub {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+//*//
+
+.main-news__title, .secondary-news__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #000;
+}
+
+.post {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.post__img {
+  width: 60%;
+}
+
+.post__highlight {
+  color: var(--color-primary);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-bottom: 8px;
+}
+
+.post__title {
+  color: var(--text-primary);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding-bottom: 8px;
+}
+
+.post__short {
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-bottom: 8px;
+}
+
+.post__bottom {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: var(--text-secondary);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.post__bottom--author {
+  color: var(--color-blue);
+}
+
+.show-more {
+  display: flex;
+  justify-content: center;
+}
+
+.show-more__text {
+  background-color: #fff;
+  padding: 12px 157px;
+  border-radius: 4px;
+  border: 1px solid var(--Neutral-300, #d0d5dd);
+  background: var(--White, #fff);
+}
+
+//*//
+
+.subject {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.sub-news__item {
+  display: flex;
+  gap: 30px;
+}
+
+.sub-news__text {
+  line-height: 1.5;
+  color: var(--text-primary);
+}
+
+.sub-news__img {
+  width: 80%;
+}
+
+.sub-news__highlight {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-primary);
+  padding-bottom: 8px;
+}
+
+.sub-news__title {
+  font-size: 18px;
+  font-weight: 600;
+}
