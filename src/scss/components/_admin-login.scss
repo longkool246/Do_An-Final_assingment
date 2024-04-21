@@ -1,0 +1,74 @@
+.admin-login-wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/image/background-admin.png");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.admin-login{
+    width: 600px;
+    height: 100vh;
+    background-color: #fff;
+    padding: 80px 60px 80px 60px;
+    .admin-login-form{
+        margin-top: 160px;
+        .title{
+            p{
+                font-size: 18px;
+            }
+        }
+        .input-username{
+            margin-top: 30px;            
+        }
+        .input-pwd{
+            margin-top: 16px;
+        }
+        input{
+            width: 100%;
+            height: 48px;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #D0D5DD;
+            padding: 12px 16px;
+            color: var(--text-secondary);
+        }
+        .option-pwd{
+            margin-top: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .remember{
+                display: flex;
+                gap: 8px;
+                align-items: center;
+                input{
+                    width: 24px;
+                    height: 24px;
+                    border-radius: 4px;
+                    color: var(--text-secondary);
+                }
+                label{
+                    color: var(--text-secondary);
+                }
+            }
+            .forget{
+                a{
+                    color: var(--text-secondary);
+                }
+            }
+        }
+        .button-login{
+            margin-top: 16px;
+            button{
+                cursor: pointer;
+                background-color: var(--color-blue);
+                color: #fff;
+                width: 100%;
+                height: 48px;
+                border-radius: 4px;
+                border: 1px solid var(--color-blue);
+            }
+        }
+    }
+}

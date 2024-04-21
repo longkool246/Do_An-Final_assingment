@@ -12,7 +12,7 @@
   --grid-container-gap: 15px;
   --grid-col-gap-vertical: 44px;
   --grid-col-gap-horizontal: 41px;
-  --color-primary: #E30119;
+  --color-primary: #C30028;
   --color-secondary: #399;
   --color-blue: #1982F8;
   --text-primary: #101828;
@@ -1246,4 +1246,161 @@ select {
 
 .mt-204 {
   margin-top: 204px;
+}
+
+.admin-login-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/image/background-admin.png");
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+.admin-login {
+  width: 600px;
+  height: 100vh;
+  background-color: #fff;
+  padding: 80px 60px 80px 60px;
+}
+.admin-login .admin-login-form {
+  margin-top: 160px;
+}
+.admin-login .admin-login-form .title p {
+  font-size: 18px;
+}
+.admin-login .admin-login-form .input-username {
+  margin-top: 30px;
+}
+.admin-login .admin-login-form .input-pwd {
+  margin-top: 16px;
+}
+.admin-login .admin-login-form input {
+  width: 100%;
+  height: 48px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #D0D5DD;
+  padding: 12px 16px;
+  color: var(--text-secondary);
+}
+.admin-login .admin-login-form .option-pwd {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.admin-login .admin-login-form .option-pwd .remember {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.admin-login .admin-login-form .option-pwd .remember input {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  color: var(--text-secondary);
+}
+.admin-login .admin-login-form .option-pwd .remember label {
+  color: var(--text-secondary);
+}
+.admin-login .admin-login-form .option-pwd .forget a {
+  color: var(--text-secondary);
+}
+.admin-login .admin-login-form .button-login {
+  margin-top: 16px;
+}
+.admin-login .admin-login-form .button-login button {
+  cursor: pointer;
+  background-color: var(--color-blue);
+  color: #fff;
+  width: 100%;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid var(--color-blue);
+}
+
+.statistic-wrapper {
+  display: flex;
+}
+.statistic-wrapper .side-bar-wrapper {
+  width: 240px;
+  background-color: #fff;
+  height: 100vh;
+  box-shadow: 4px 0px 6px 0px rgba(0, 0, 0, 0.06);
+}
+.statistic-wrapper .side-bar-wrapper .image-logo {
+  width: 100%;
+  height: 80px;
+  padding: 26px 32px;
+}
+.statistic-wrapper .side-bar-wrapper .side-bar {
+  width: 100%;
+  padding: 40px 20px;
+}
+.statistic-wrapper .side-bar-wrapper .side-bar .option {
+  width: 100%;
+  height: 48px;
+  padding: 12px 16px;
+  display: flex;
+}
+.statistic-wrapper .side-bar-wrapper .side-bar .option img {
+  margin-right: 8px;
+}
+.statistic-wrapper .side-bar-wrapper .side-bar .option a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #101828;
+}
+.statistic-wrapper .side-bar-wrapper .side-bar .active {
+  background-color: #FDD7CA;
+}
+.statistic-wrapper .side-bar-wrapper .side-bar .active a {
+  color: var(--color-primary);
+}
+.statistic-wrapper .container-wrapper {
+  width: 87.5%;
+  height: auto;
+}
+.statistic-wrapper .container-wrapper .header-container {
+  display: flex;
+  padding: 16px 135px;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+}
+.statistic-wrapper .container-wrapper .header-container .title {
+  width: 52%;
+  padding: 6px 0 6px 0;
+}
+.statistic-wrapper .container-wrapper .header-container .title p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #101828;
+}
+.statistic-wrapper .container-wrapper .header-container .functions {
+  width: 48%;
+  display: flex;
+}
+.statistic-wrapper .container-wrapper .header-container .functions input {
+  border: 1px solid #D0D5DD;
+  border-radius: 4px;
+  padding: 12px 16px;
+  color: #667085;
+  font-size: 16px;
+  font-weight: 400;
+}
+.statistic-wrapper .container-wrapper .header-container .functions .list-btn {
+  display: flex;
+  padding: 4px 0 4px 0;
+}
+.statistic-wrapper .container-wrapper .header-container .functions .list-btn img {
+  cursor: pointer;
+  margin-left: 16px;
+}
+.statistic-wrapper .container-wrapper .header-container .functions .list-btn .users {
+  padding: 8px;
+}
+.statistic-wrapper .container-wrapper .header-container .functions .list-btn .users a {
+  color: #101828;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
