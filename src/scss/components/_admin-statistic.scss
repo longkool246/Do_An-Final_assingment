@@ -53,6 +53,7 @@
         margin-top: 30px;
         display: flex;
         justify-content: space-between;
+        height: auto;
     }
     .statistic-order-new{
         margin-top: 30px;
@@ -74,6 +75,7 @@
                 justify-content: space-between;
                 .btn-page{
                     height: 40px;
+                    cursor: pointer;
                 }
             }
         }
