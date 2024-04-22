@@ -250,7 +250,7 @@
   gap: 8px;
 }
 
-///////*//////////////////
+///////*///////
 .wrapper {
   position: absolute;
   width: 500px;
@@ -438,7 +438,7 @@ background-color: #fff;
 .btn {
   width: 100%;
   padding: 12px 0;
-  background-color: var(--color-primary);
+  background-color: var(--color-blue);
   border: none;
   outline: none;
   border-radius: 4px;
@@ -473,7 +473,7 @@ background-color: #fff;
   right: 0;
   left: 0;
   bottom: 0;
-  background: #333;
+  background: #111;
   z-index: 2;
-  opacity: 0.5;
+  opacity: 0.8;
 }

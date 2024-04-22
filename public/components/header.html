@@ -37,16 +37,18 @@
           </svg>
         </div>
         <div class="header-nav">
-          <div class="dflex nav header-product">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 20 15" fill="none">
-              <path
-                d="M19.25 10.5H0.75C0.335938 10.5 0 10.8359 0 11.25V11.75C0 13.2666 1.23341 14.5 2.75 14.5H17.25C18.7666 14.5 20 13.2666 20 11.75V11.25C20 10.8359 19.6641 10.5 19.25 10.5ZM17.25 13H2.75C2.1465 13 1.64113 12.5698 1.52491 12H18.4751C18.3589 12.5698 17.8535 13 17.25 13ZM3.5 2.25C3.5 2.11231 3.61231 2 3.75 2H16.25C16.3877 2 16.5 2.11231 16.5 2.25V9.5H18V2.25C18 1.28516 17.2148 0.5 16.25 0.5H3.75C2.78516 0.5 2 1.28516 2 2.25V9.5H3.5V2.25Z"
-                fill="white" />
-            </svg>
-            <p class="header-product__text">
-              Sản phẩm
-            </p>
-          </div>
+          <a href="/product.html">
+            <div class="dflex nav header-product">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 20 15" fill="none">
+                <path
+                  d="M19.25 10.5H0.75C0.335938 10.5 0 10.8359 0 11.25V11.75C0 13.2666 1.23341 14.5 2.75 14.5H17.25C18.7666 14.5 20 13.2666 20 11.75V11.25C20 10.8359 19.6641 10.5 19.25 10.5ZM17.25 13H2.75C2.1465 13 1.64113 12.5698 1.52491 12H18.4751C18.3589 12.5698 17.8535 13 17.25 13ZM3.5 2.25C3.5 2.11231 3.61231 2 3.75 2H16.25C16.3877 2 16.5 2.11231 16.5 2.25V9.5H18V2.25C18 1.28516 17.2148 0.5 16.25 0.5H3.75C2.78516 0.5 2 1.28516 2 2.25V9.5H3.5V2.25Z"
+                  fill="white" />
+              </svg>
+              <p class="header-product__text">
+                Sản phẩm
+              </p>
+            </div>
+          </a>
           <div class="dflex nav header-about">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none">
               <path
@@ -99,6 +101,95 @@
       </div>
     </div>
   </header>
+  <div class="wrapper">
+    <span class="icon-close"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
+      <path d="M9.7804 9.21974C10.0732 9.51252 10.0732 9.98762 9.7804 10.2804C9.48762 10.5732 9.01252 10.5732 8.71974 10.2804L4.99999 6.56065L1.28024 10.2804C0.987461 10.5732 0.512367 10.5732 0.219586 10.2804C-0.0731953 9.98762 -0.0731953 9.51252 0.219586 9.21974L3.93934 5.49999L0.219586 1.78024C-0.0731953 1.48746 -0.0731953 1.01237 0.219586 0.719586C0.512367 0.426805 0.987461 0.426805 1.28024 0.719586L4.99999 4.43934L8.71974 0.719586C9.01252 0.426805 9.48762 0.426805 9.7804 0.719586C10.0732 1.01237 10.0732 1.48746 9.7804 1.78024L6.06065 5.49999L9.7804 9.21974Z" fill="#101828"/>
+    </svg></span>
+    <div class="form-box login">
+      <h2>ĐĂNG NHẬP HOẶC TẠO TÀI KHOẢN</h2>
+      <form action="#">
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail"></ion-icon></span>
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+          <input type="password" required>
+          <label>Mật khẩu</label>
+        </div>
+        <div class="remember-forgot">
+          <a href="#">Quên mật khẩu?</a>
+        </div>
+        <button type="submit" class="btn">ĐĂNG NHẬP
+        </button>
+        <div class="social-sign-in">
+          <p class="option">
+            Hoặc đăng nhập bằng
+          </p>
+        </div>
+        <div class="method">
+          <div class="method__item">
+            <img src="/image/Vector.svg" alt="">
+            <p class="method-text">
+              Google
+            </p>
+          </div>
+          <div class="method__item">
+            <img src="/image/Vector-1.svg" alt="">
+            <p class="method-text">
+              Facebook
+            </p>
+          </div>
+        </div>
+        <div class="login-register">
+          <p>Bạn chưa có tài khoản? <a href="#" class="register-link">Đăng ký ngay!</a></p>
+        </div>
+      </form>
+    </div>
+
+    <div class="form-box register">
+      <h2>ĐĂNG KÝ TÀI KHOẢN</h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" required>
+          <label>Họ và tên</label>
+        </div>
+        <div class="input-box">
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <input type="password" required>
+          <label>Mật khẩu</label>
+        </div>
+        <button type="submit" class="btn">TẠO TÀI KHOẢN
+        </button>
+        <div class="social-sign-in">
+          <p class="option">
+            Hoặc đăng nhập bằng
+          </p>
+        </div>
+        <div class="method">
+          <div class="method__item">
+            <img src="/image/Vector.svg" alt="">
+            <p class="method-text">
+              Google
+            </p>
+          </div>
+          <div class="method__item">
+            <img src="/image/Vector-1.svg" alt="">
+            <p class="method-text">
+              Facebook
+            </p>
+          </div>
+        </div>
+        <div class="login-register">
+          <p>Bạn đã có tài khoản? <a href="#" class="login-link">Đăng nhập!</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
   <div class="advert pt-30">
     <div class="container">
       <div class="row">
@@ -986,5 +1077,6 @@
       </div>
     </section>
   </footer>
+  <script src="/src/index.js"></script>
 </body>
 </html>
