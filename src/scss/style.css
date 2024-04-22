@@ -1487,6 +1487,9 @@ select {
   justify-content: space-between;
   height: auto;
 }
+.statistic-content-container .statistic-table-chart .statistic-table, .statistic-content-container .statistic-table-chart .statistic-chart {
+  width: 48.93%;
+}
 .statistic-content-container .statistic-order-new {
   margin-top: 30px;
   width: 100%;

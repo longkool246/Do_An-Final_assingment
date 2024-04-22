@@ -54,6 +54,9 @@
         display: flex;
         justify-content: space-between;
         height: auto;
+        .statistic-table, .statistic-chart{
+            width: 48.93%;
+        }
     }
     .statistic-order-new{
         margin-top: 30px;
