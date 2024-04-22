@@ -1,0 +1,45 @@
+.order-content-container{
+    padding: 30px 135px;
+    .header-order-content-container{
+        display: flex;
+        width: 100%;
+        height: auto;
+        .order-title{
+            width: 81.56%;
+            padding: 10.5px 0 10.5px 0;
+            p{
+                font-size: 18px;
+                font-weight: 600;
+                color: #101828;
+            }
+        }
+        .order-btn-function{
+            width: 18.44%;
+            height: 48px;
+            display: flex;
+            .add-order{
+                margin-left: 12px;
+                padding: 4px 0 4px 0;
+            }
+        }
+    }
+    .order-table{
+        margin-top: 16px;
+    }
+    .pagination-block{
+        margin-top: 16px;
+        display: flex;
+        .block{
+            width: 69.37%;
+        }
+        .pagination{
+            width: 30.63%;
+            display: flex;
+            justify-content: space-between;
+            .btn-page{
+                height: 40px;
+                cursor: pointer;
+            }
+        }
+    }
+}
