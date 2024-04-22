@@ -1532,4 +1532,94 @@ select {
 .product-content-container .pagination-block .pagination .btn-page {
   height: 40px;
   cursor: pointer;
+}
+
+.customer-content-container {
+  padding: 30px 135px;
+}
+.customer-content-container .header-customer-content-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.customer-content-container .header-customer-content-container .customer-title {
+  width: 69.72%;
+  padding: 10.5px 0 10.5px 0;
+}
+.customer-content-container .header-customer-content-container .customer-title p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #101828;
+}
+.customer-content-container .header-customer-content-container .customer-btn-function {
+  width: 30.28%;
+  height: 48px;
+  display: flex;
+}
+.customer-content-container .header-customer-content-container .customer-btn-function .add-customer {
+  margin-left: 12px;
+}
+.customer-content-container .customer-table {
+  margin-top: 16px;
+}
+.customer-content-container .pagination-block {
+  margin-top: 16px;
+  display: flex;
+}
+.customer-content-container .pagination-block .block {
+  width: 69.37%;
+}
+.customer-content-container .pagination-block .pagination {
+  width: 30.63%;
+  display: flex;
+  justify-content: space-between;
+}
+.customer-content-container .pagination-block .pagination .btn-page {
+  height: 40px;
+  cursor: pointer;
+}
+
+.employee-content-container {
+  padding: 30px 135px;
+}
+.employee-content-container .header-employee-content-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.employee-content-container .header-employee-content-container .employee-title {
+  width: 69.72%;
+  padding: 10.5px 0 10.5px 0;
+}
+.employee-content-container .header-employee-content-container .employee-title p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #101828;
+}
+.employee-content-container .header-employee-content-container .employee-btn-function {
+  width: 30.28%;
+  height: 48px;
+  display: flex;
+}
+.employee-content-container .header-employee-content-container .employee-btn-function .add-employee {
+  margin-left: 12px;
+}
+.employee-content-container .employee-table {
+  margin-top: 16px;
+}
+.employee-content-container .pagination-block {
+  margin-top: 16px;
+  display: flex;
+}
+.employee-content-container .pagination-block .block {
+  width: 69.37%;
+}
+.employee-content-container .pagination-block .pagination {
+  width: 30.63%;
+  display: flex;
+  justify-content: space-between;
+}
+.employee-content-container .pagination-block .pagination .btn-page {
+  height: 40px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

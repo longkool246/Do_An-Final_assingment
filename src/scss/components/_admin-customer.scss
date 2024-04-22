@@ -1,0 +1,44 @@
+.customer-content-container{
+    padding: 30px 135px;
+    .header-customer-content-container{
+        display: flex;
+        width: 100%;
+        height: auto;
+        .customer-title{
+            width: 69.72%;
+            padding: 10.5px 0 10.5px 0;
+            p{
+                font-size: 18px;
+                font-weight: 600;
+                color: #101828;
+            }
+        }
+        .customer-btn-function{
+            width: 30.28%;
+            height: 48px;
+            display: flex;
+            .add-customer{
+                margin-left: 12px;
+            }
+        }
+    }
+    .customer-table{
+        margin-top: 16px;
+    }
+    .pagination-block{
+        margin-top: 16px;
+        display: flex;
+        .block{
+            width: 69.37%;
+        }
+        .pagination{
+            width: 30.63%;
+            display: flex;
+            justify-content: space-between;
+            .btn-page{
+                height: 40px;
+                cursor: pointer;
+            }
+        }
+    }
+}
