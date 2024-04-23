@@ -2094,4 +2094,110 @@ select {
 }
 .personal-infor .button-save-changes button:hover {
   background-color: #50A9FB;
+}
+
+.personal-infor-address {
+  width: 75.03%;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #fff;
+  padding: 12px 16px;
+}
+.personal-infor-address .header-personal-info-address {
+  display: flex;
+}
+.personal-infor-address .header-personal-info-address .title-header {
+  width: 824px;
+}
+.personal-infor-address .header-personal-info-address .title-header p {
+  color: #101828;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.personal-infor-address .header-personal-info-address .add-address-new {
+  display: flex;
+  justify-content: flex-end;
+  width: calc(100% - 824px);
+  padding: 3px 0;
+  margin-left: 30px;
+}
+.personal-infor-address .header-personal-info-address .add-address-new a {
+  color: #101828;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  transition: all 0.3 ease;
+}
+.personal-infor-address .header-personal-info-address .add-address-new a:hover {
+  color: #667085;
+}
+.personal-infor-address .personal-info-address-vecto {
+  width: 100%;
+  margin-top: 16px;
+  border: 1px solid #EAECF0;
+}
+.personal-infor-address .info-address {
+  margin-top: 16px;
+}
+.personal-infor-address .info-address .title-info-address {
+  display: flex;
+}
+.personal-infor-address .info-address .title-info-address .title-header {
+  width: 759px;
+}
+.personal-infor-address .info-address .title-info-address .title-header p {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.personal-infor-address .info-address .title-info-address .default-address {
+  display: flex;
+  justify-content: flex-end;
+  width: calc(100% - 775px);
+  margin-left: 16px;
+}
+.personal-infor-address .info-address .title-info-address .default-address .text-update {
+  margin-left: 16px;
+  padding: 1px 0;
+}
+.personal-infor-address .info-address .title-info-address .default-address .text-update a {
+  color: #1982F8;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  transition: all 0.3 ease;
+}
+.personal-infor-address .info-address .title-info-address .default-address .text-update a:hover {
+  color: #75C1FD;
+}
+.personal-infor-address .info-address .title-info-address .default-address .text-delete {
+  margin-left: 32px;
+  padding: 1px 0;
+}
+.personal-infor-address .info-address .title-info-address .default-address .text-delete a {
+  color: #C30028;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  transition: all 0.3 ease;
+}
+.personal-infor-address .info-address .title-info-address .default-address .text-delete a:hover {
+  color: #F66E62;
+}
+.personal-infor-address .info-address .content-address {
+  margin-top: 16px;
+}
+.personal-infor-address .info-address .content-address p {
+  color: #667085;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.personal-infor-address .info-address .content-address .content-addr {
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */
