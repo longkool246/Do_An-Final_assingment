@@ -2257,11 +2257,15 @@ select {
 .personal-manage-order-container .product-container .header-product .title-order {
   width: 876px;
 }
-.personal-manage-order-container .product-container .header-product .title-order .small-title-order p {
+.personal-manage-order-container .product-container .header-product .title-order .small-title-order a {
   color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
+  transition: all 0.3 ease;
+}
+.personal-manage-order-container .product-container .header-product .title-order .small-title-order a:hover {
+  color: var(--color-primary);
 }
 .personal-manage-order-container .product-container .header-product .title-order .date-order {
   margin-top: 10px;
@@ -2277,6 +2281,7 @@ select {
   display: flex;
   justify-content: flex-end;
   padding: 13px 0;
+  margin-left: 16px;
 }
 .personal-manage-order-container .product-container .header-product .status-order .block-status {
   width: auto;
@@ -2391,6 +2396,222 @@ select {
   justify-content: flex-end;
 }
 .personal-manage-order-container .product-container .total-price-product .text-value-price p {
+  color: #C30028;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.personal-manage-order-detail-container {
+  width: 75.03%;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #fff;
+  padding: 12px 16px;
+}
+.personal-manage-order-detail-container .header-manage-order-detail {
+  display: flex;
+}
+.personal-manage-order-detail-container .header-manage-order-detail .title-header {
+  width: 894px;
+}
+.personal-manage-order-detail-container .header-manage-order-detail .title-header p {
+  color: #101828;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.personal-manage-order-detail-container .header-manage-order-detail .status-order {
+  width: calc(100% - 924px);
+  display: flex;
+  justify-content: flex-end;
+  padding: 2px 0;
+  margin-left: 30px;
+}
+.personal-manage-order-detail-container .header-manage-order-detail .status-order .block-status {
+  width: auto;
+  height: 26px;
+  background-color: #fff;
+  padding: 4px 12px;
+  border-radius: 1000px;
+  border: 1px solid #24B300;
+}
+.personal-manage-order-detail-container .header-manage-order-detail .status-order .block-status p {
+  color: #24B300;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.personal-manage-order-detail-container .header-manage-order-detail .status-order .wait {
+  background-color: #FDD734;
+}
+.personal-manage-order-detail-container .header-manage-order-detail .status-order .wait p {
+  color: #111;
+}
+.personal-manage-order-detail-container .personal-manage-order-vecto {
+  width: 100%;
+  margin-top: 16px;
+  border: 1px solid #EAECF0;
+}
+.personal-manage-order-detail-container .detail-order {
+  margin-top: 16px;
+}
+.personal-manage-order-detail-container .detail-order .text-detail {
+  margin-top: 16px;
+  display: flex;
+}
+.personal-manage-order-detail-container .detail-order .text-detail .small-title-detail {
+  width: 50%;
+}
+.personal-manage-order-detail-container .detail-order .text-detail .small-title-detail p {
+  color: #101828;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.personal-manage-order-detail-container .detail-order .text-detail .small-info-detail {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.personal-manage-order-detail-container .detail-order .text-detail .small-info-detail p {
+  color: #101828;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.personal-manage-order-detail-container .product-container {
+  margin-top: 16px;
+}
+.personal-manage-order-detail-container .product-container .header-product {
+  height: 45px;
+  background-color: #1982F8;
+  border-radius: 4px 4px 0 0;
+  padding: 12px 16px;
+  display: flex;
+}
+.personal-manage-order-detail-container .product-container .header-product .title-order .small-title-order p {
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+.personal-manage-order-detail-container .product-container .info-product {
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.personal-manage-order-detail-container .product-container .info-product .image-product {
+  width: 160px;
+}
+.personal-manage-order-detail-container .product-container .info-product .detail-info-product {
+  width: 593px;
+}
+.personal-manage-order-detail-container .product-container .info-product .detail-info-product .product-fullname p {
+  color: #101828;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.personal-manage-order-detail-container .product-container .info-product .detail-info-product .product-quantity {
+  display: flex;
+  margin-top: 16px;
+}
+.personal-manage-order-detail-container .product-container .info-product .detail-info-product .product-quantity .quantity p {
+  color: #101828;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+.personal-manage-order-detail-container .product-container .info-product .detail-info-product .product-quantity .number {
+  margin-left: 16px;
+}
+.personal-manage-order-detail-container .product-container .info-product .detail-info-product .product-quantity .number p {
+  color: #101828;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.personal-manage-order-detail-container .product-container .info-product .detail-info-product .title-promotional-gifts {
+  margin-top: 16px;
+}
+.personal-manage-order-detail-container .product-container .info-product .detail-info-product .title-promotional-gifts p {
+  color: #101828;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+.personal-manage-order-detail-container .product-container .info-product .detail-info-product .promotional-gifts {
+  margin-top: 8px;
+}
+.personal-manage-order-detail-container .product-container .info-product .detail-info-product .promotional-gifts p {
+  color: #667085;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.personal-manage-order-detail-container .product-container .info-product .price-product {
+  width: calc(100% - 785px);
+  padding: 55px 0;
+}
+.personal-manage-order-detail-container .product-container .info-product .price-product .price-after-product p {
+  color: #101828;
+  font-style: normal;
+  font-weight: 600;
+  text-align: right;
+}
+.personal-manage-order-detail-container .product-container .info-product .price-product .price-before-product {
+  margin-top: 8px;
+}
+.personal-manage-order-detail-container .product-container .info-product .price-product .price-before-product p {
+  color: #667085;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration-line: line-through;
+  text-align: right;
+}
+.personal-manage-order-detail-container .product-container .text-detail {
+  margin-top: 28px;
+  display: flex;
+}
+.personal-manage-order-detail-container .product-container .text-detail .small-title-detail {
+  width: 50%;
+}
+.personal-manage-order-detail-container .product-container .text-detail .small-title-detail p {
+  color: #101828;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.personal-manage-order-detail-container .product-container .text-detail .small-info-detail {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.personal-manage-order-detail-container .product-container .text-detail .small-info-detail p {
+  color: #101828;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.personal-manage-order-detail-container .product-container .total-price-product {
+  display: flex;
+  margin-top: 16px;
+}
+.personal-manage-order-detail-container .product-container .total-price-product .text-total-price {
+  width: 50%;
+}
+.personal-manage-order-detail-container .product-container .total-price-product .text-total-price p {
+  color: #101828;
+  font-style: normal;
+  font-weight: 400;
+}
+.personal-manage-order-detail-container .product-container .total-price-product .text-value-price {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.personal-manage-order-detail-container .product-container .total-price-product .text-value-price p {
   color: #C30028;
   font-style: normal;
   font-weight: 600;

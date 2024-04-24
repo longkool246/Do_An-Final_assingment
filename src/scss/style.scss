@@ -11,16 +11,17 @@
 @import './abstracts/variables';
 
 // admin
-@import './components/admin-login';
-@import './components/admin-side-bar';
-@import './components/admin-statistic';
-@import './components/admin-product';
-@import './components/admin-customer';
-@import './components/admin-employee';
-@import './components/admin-order';
+@import './components/admin/login';
+@import './components/admin/side-bar';
+@import './components/admin/statistic';
+@import './components/admin/product';
+@import './components/admin/customer';
+@import './components/admin/employee';
+@import './components/admin/order';
 
 // personal info
 @import './components/personal-base';
 @import './components/personal-page';
 @import './components/personal-address';
 @import './components/personal-manage-order';
+@import './components/personal-manage-order-detail'
