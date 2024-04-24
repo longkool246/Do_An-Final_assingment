@@ -1,0 +1,200 @@
+.personal-manage-order-container{
+    width: 75.03%;
+    height: fit-content;
+    background-color: #fff;
+    padding: 12px 16px;
+    .header-personal-manage-order{
+        display: flex;
+        .title-header{
+            width: 824px;
+            p{
+                color: #101828;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+            }
+        }
+        .add-order-new{
+            display: flex;
+            justify-content: flex-end;
+            width: calc(100% - 824px);
+            padding: 3px 0;
+            margin-left: 30px;
+            a{
+                color: #101828;
+                text-align: center;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                transition: all 0.3 ease;
+                &:hover{
+                    color: #667085;
+                }
+            }
+        }
+    }
+    .personal-manage-order-vecto{
+        width: 100%;
+        margin-top: 16px;
+        border: 1px solid #EAECF0;
+    }
+    .product-container{
+        margin-top: 16px;
+        .header-product{
+            height: 76px;
+            background-color: #1982F8;
+            border-radius: 4px 4px 0 0;
+            padding: 12px 16px;
+            display: flex;
+            .title-order{
+                width: 876px;
+                .small-title-order{
+                    p{
+                        color: #fff;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                    }
+                }
+                .date-order{
+                    margin-top: 10px;
+                    p{
+                        color: #fff;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                    }
+                }
+            }
+            .status-order{
+                width: calc(100% - 892px);
+                display: flex;
+                justify-content: flex-end;
+                padding: 13px 0;
+                .block-status{
+                    width: auto;
+                    height: 26px;
+                    background-color: #24B300;
+                    padding: 4px 12px;
+                    border-radius: 1000px;
+                    border: 0;
+                    p{
+                        color: #fff;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                    }
+                }
+                .wait{
+                    background-color: #FDD734;
+                    p{
+                        color: #111;
+                    }
+                }
+            }
+        }
+        .info-product{
+            padding: 12px 16px;
+            display: flex;
+            justify-content: space-between;
+            .image-product{
+                width: 160px;
+            }
+            .detail-info-product{
+                width: 593px;
+                .product-fullname{
+                    p{
+                        color:#101828;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                    }
+                }
+                .product-quantity{
+                    display: flex;
+                    margin-top: 16px;
+                    .quantity{
+                        p{
+                            color: #101828;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 600;
+                        }
+                    }
+                    .number{
+                        margin-left: 16px;
+                        p{
+                            color: #101828;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                        }
+                    }
+                }
+                .title-promotional-gifts{
+                    margin-top: 16px;
+                    p{
+                        color: #101828;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 600;
+                    }
+                }
+                .promotional-gifts{
+                    margin-top: 8px;
+                    p{
+                        color: #667085;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                    }
+                }
+            }
+            .price-product{
+                width: calc(100% - 785px);
+                padding: 55px 0;
+                .price-after-product{
+                    p{
+                        color: #101828;
+                        font-style: normal;
+                        font-weight: 600;
+                        text-align: right;
+                    }
+                }
+                .price-before-product{
+                    margin-top: 8px;
+                    p{
+                        color: #667085;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        text-decoration-line: line-through;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+        .total-price-product{
+            padding: 12px 16px;
+            display: flex;
+            .text-total-price{
+                width: 50%;
+                p{
+                    color: #101828;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+            }
+            .text-value-price{
+                width: 50%;
+                display: flex;
+                justify-content: flex-end;
+                p{
+                    color: #C30028;
+                    font-style: normal;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
