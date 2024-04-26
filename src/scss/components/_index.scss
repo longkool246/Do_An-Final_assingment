@@ -107,6 +107,9 @@
 
 .section-title {
   color: var(--text-primary);
+  @media (max-width: 375px) {
+    font-size: 16px;
+  }
 }
 
 .section-brand {
@@ -118,6 +121,10 @@
 
 .section-brand__link {
   color: var(--color-blue);
+  font-weight: 400;
+  @media (max-width: 375px) {
+    font-size: 12px;
+  }
 }
 
 .product-card {
@@ -180,6 +187,9 @@
   font-size: 24px;
   font-weight: 600;
   line-height: 1.5;
+  @media (max-width: 375px) {
+    font-size: 16px;
+  }
 }
 
 //*//
@@ -232,6 +242,9 @@
     background-color: var(--color-primary);
     margin-top: 60px;
     width: 100%;
+  }
+  @media (max-width: 375px) {
+    display: none;
   }
 }
 
@@ -476,4 +489,45 @@ background-color: #fff;
   background: #111;
   z-index: 2;
   opacity: 0.8;
+}
+
+//*mobile*//
+
+.mb-none {
+  @media (max-width: 375px) {
+    display: none;
+  }
+}
+
+.header-mobile {
+  background-color: var(--color-primary);
+  display: none;
+  @media (max-width: 375px) {
+    display: block;
+  }
+}
+
+.mb-header-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  align-items: center;
+}
+
+.mb-header-left {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  svg {
+    margin: 5px;
+  }
+}
+
+.mb-header-right {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  svg {
+    margin: 5px;
+  }
 }

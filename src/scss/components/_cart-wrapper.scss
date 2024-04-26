@@ -79,6 +79,7 @@
 .cart-step {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .step-item {
@@ -153,6 +154,9 @@
 .btn--blue-lg {
   margin: 0 auto;
   width: 35%;
+  @media (max-width: 375px) {
+    width: 100%;
+  }
 }
 
 .checkout-side {
