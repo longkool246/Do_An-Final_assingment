@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 1.5;
   color: var(--text-primary);
+  cursor: pointer;
 }
 
 h1 {
@@ -71,11 +72,16 @@ h6 {
 
 li {
   list-style: none;
+  cursor: pointer;
 }
 
 a {
   text-decoration: none;
   color: #667085;
+}
+
+p {
+  cursor: pointer;
 }
 
 .dflex {

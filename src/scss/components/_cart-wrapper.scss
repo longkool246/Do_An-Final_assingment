@@ -58,6 +58,9 @@
   font-weight: 400;
   line-height: 1.5;
   text-decoration-line: line-through;
+  @media (max-width: 375px) {
+    font-size: 12px;
+  }
 }
 
 .cart-product__quantity {

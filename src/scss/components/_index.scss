@@ -94,6 +94,17 @@
   color: #fff;
 }
 
+.greeting {
+  color: #FFF;
+font-size: 12px;
+font-weight: 600;
+line-height: 1.5;
+}
+
+.greeting-user {
+  font-size: 14px;
+}
+
 .sign-in-icon {
   padding: 8px;
 }
@@ -107,6 +118,11 @@
 
 .section-title {
   color: var(--text-primary);
+  cursor: pointer;
+  &:hover {
+    color: var(--color-primary);
+    transition: 0.3s;
+  }
   @media (max-width: 375px) {
     font-size: 16px;
   }
