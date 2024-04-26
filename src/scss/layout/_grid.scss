@@ -24,6 +24,12 @@
   padding-right: 15px;
 }
 
+@media (min-width: 375px) {
+  .col {
+    width: calc(var(--col-xs) / var(--grid) * 100%);
+  }
+}
+
 @media (min-width: 768px) {
   .col {
     width: calc(var(--col-sm) / var(--grid) * 100%);
