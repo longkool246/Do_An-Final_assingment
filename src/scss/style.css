@@ -283,8 +283,8 @@ select {
   padding: 0px 16px;
   background-color: #fff;
   width: 288px;
-  right: 0;
-  top: 138%;
+  left: 71%;
+  top: 7%;
   border-radius: 4px;
   display: none;
   transition: 0.5s;
