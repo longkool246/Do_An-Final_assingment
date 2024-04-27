@@ -156,6 +156,13 @@ line-height: 1.5;
   transition: 0.5s;
 }
 
+.product-card__img {
+  overflow: hidden;
+  img:hover {
+    transform: scale(1.2);
+  }
+}
+
 .popup-greeting {
   color: #101828;
   font-size: 14px;

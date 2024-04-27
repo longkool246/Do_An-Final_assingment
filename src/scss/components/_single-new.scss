@@ -2,6 +2,24 @@
   padding-top: 20px;
 }
 
+.extra-news__title {
+  @media (max-width: 375px) {
+    font-size: 12px;
+  }
+}
+
+.post__bottom--date {
+  @media (max-width: 375px) {
+    font-size: 10px;
+  }
+}
+
+.post__bottom {
+  @media (max-width: 375px) {
+    font-size: 10px;
+  }
+}
+
 .extra-news__item {
   padding: 10px;
   background-color: #fff;

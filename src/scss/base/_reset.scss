@@ -76,11 +76,17 @@ h6 {
 li {
   list-style: none;
   cursor: pointer;
+  &:hover {
+    color: var(--color-primary);
+  }
 }
 
 a {
   text-decoration: none;
   color: #667085;
+  &:hover {
+    color: var(--color-primary);
+  }
 }
 
 p {
@@ -95,6 +101,7 @@ img {
   max-width: 100%;
   width: auto;
   height: auto;
+  transition: transform 0.5s ease;
 }
 
 select {
