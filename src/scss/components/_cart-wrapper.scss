@@ -250,3 +250,52 @@ line-height: 1.5;
 }
 
 
+.custom-input-number {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: end;
+}
+
+.decrement {
+  position: absolute;
+  z-index: 99;
+  border: none;
+  left: 89%;
+  background: none;
+}
+
+.increment {
+  position: absolute;
+  z-index: 99;
+  border: none;
+  right: 3%;
+  background: none;
+}
+
+.number-input {
+  width: 70px;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #667085;
+  border-radius: 4px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container button {
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #ddd;
+}

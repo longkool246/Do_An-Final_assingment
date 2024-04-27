@@ -92,6 +92,7 @@
 
 .sign-in__text {
   color: #fff;
+  position: relative;
 }
 
 .greeting {
@@ -103,10 +104,46 @@ line-height: 1.5;
 
 .greeting-user {
   font-size: 14px;
+  color: #FFF;
 }
 
 .sign-in-icon {
   padding: 8px;
+}
+
+.popup-user {
+  position: absolute;
+  color: #667085;
+  padding: 0px 16px;
+  background-color: #fff;
+  width: 288px;
+  right: 0;
+  top: 138%;
+  border-radius: 4px;
+  display: none;
+  transition: 0.5s;
+}
+
+.btnLogin-popup:hover .popup-user {
+  display: block;
+  transition: 0.5s;
+}
+
+.popup-greeting {
+  color: #101828;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 12px 0;
+}
+
+.popup-personal {
+  color: #667085;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.5;
+padding: 12px 0;
+border-top: 1px solid #EAECF0;
 }
 
 //*//
@@ -148,6 +185,7 @@ line-height: 1.5;
   background-color: #fff;
   border-radius: 4px;
   border: 1px solid #D0D5DD;
+  min-height: 100%;
 }
 
 .product-card__img {

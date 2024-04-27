@@ -141,6 +141,7 @@ select {
   width: calc(var(--col-xs) / var(--grid) * 100%);
   padding-left: 15px;
   padding-right: 15px;
+  margin-bottom: 30px;
 }
 
 @media (min-width: 375px) {
@@ -257,6 +258,7 @@ select {
 
 .sign-in__text {
   color: #fff;
+  position: relative;
 }
 
 .greeting {
@@ -268,10 +270,46 @@ select {
 
 .greeting-user {
   font-size: 14px;
+  color: #FFF;
 }
 
 .sign-in-icon {
   padding: 8px;
+}
+
+.popup-user {
+  position: absolute;
+  color: #667085;
+  padding: 0px 16px;
+  background-color: #fff;
+  width: 288px;
+  right: 0;
+  top: 138%;
+  border-radius: 4px;
+  display: none;
+  transition: 0.5s;
+}
+
+.btnLogin-popup:hover .popup-user {
+  display: block;
+  transition: 0.5s;
+}
+
+.popup-greeting {
+  color: #101828;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 12px 0;
+}
+
+.popup-personal {
+  color: #667085;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 12px 0;
+  border-top: 1px solid #EAECF0;
 }
 
 .section-text {
@@ -315,6 +353,7 @@ select {
   background-color: #fff;
   border-radius: 4px;
   border: 1px solid #D0D5DD;
+  min-height: 100%;
 }
 
 .product-card__img img {
@@ -833,6 +872,44 @@ select {
 
 .sign-in-icon {
   padding: 8px;
+}
+
+.navigation {
+  position: fixed;
+  justify-content: start;
+  background-color: #fff;
+  width: 80%;
+  top: 0;
+  height: 100vh;
+  right: 120%;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 99;
+  transition: all 0.5s ease-out;
+}
+
+.navigation-header {
+  padding: 9px;
+  background-color: var(--color-primary);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-item {
+  padding: 8px;
+}
+.navigation-item li {
+  border-bottom: 1px solid #D0D5DD;
+  padding: 8px;
+}
+
+.sign-in-mobile {
+  position: fixed;
+  bottom: 0;
+  padding-left: 8px;
+  padding-bottom: 8px;
 }
 
 .breadcrumb {
@@ -1451,6 +1528,56 @@ select {
 
 .btn--blue-bottom {
   width: 35%;
+}
+
+.custom-input-number {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: end;
+}
+
+.decrement {
+  position: absolute;
+  z-index: 99;
+  border: none;
+  left: 89%;
+  background: none;
+}
+
+.increment {
+  position: absolute;
+  z-index: 99;
+  border: none;
+  right: 3%;
+  background: none;
+}
+
+.number-input {
+  width: 70px;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #667085;
+  border-radius: 4px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container button {
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #ddd;
 }
 
 .product-sub {
