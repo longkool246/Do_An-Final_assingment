@@ -102,6 +102,33 @@ font-weight: 600;
 line-height: 1.5;
 }
 
+.img-mobile {
+  @media (max-width: 375px) {
+    display: none;
+  }
+}
+
+.paging-col {
+  position: relative;
+}
+
+.paging-now {
+  width: 18px;
+  height: 6px;
+  background-color: var(--color-primary);
+  border-radius: 1000px;
+}
+
+.paging {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 82%;
+  right: 50%;
+  transform: translateX(50%);
+}
+
 .greeting-user {
   font-size: 14px;
   color: #FFF;
@@ -221,6 +248,9 @@ border-top: 1px solid #EAECF0;
 
 .product-card__price {
   color: var(--color-primary);
+  @media (max-width: 375px) {
+    font-size: 14px;
+  }
 }
 
 .product-card__percent {

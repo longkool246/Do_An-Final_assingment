@@ -59,7 +59,12 @@ h5 {
 }
 
 h6 {
-  font-size: 14px;
+  font-size: 16px;
+}
+@media (max-width: 375px) {
+  h6 {
+    font-size: 12px;
+  }
 }
 
 li {
@@ -268,6 +273,33 @@ select {
   line-height: 1.5;
 }
 
+@media (max-width: 375px) {
+  .img-mobile {
+    display: none;
+  }
+}
+
+.paging-col {
+  position: relative;
+}
+
+.paging-now {
+  width: 18px;
+  height: 6px;
+  background-color: var(--color-primary);
+  border-radius: 1000px;
+}
+
+.paging {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 82%;
+  right: 50%;
+  transform: translateX(50%);
+}
+
 .greeting-user {
   font-size: 14px;
   color: #FFF;
@@ -387,6 +419,11 @@ select {
 
 .product-card__price {
   color: var(--color-primary);
+}
+@media (max-width: 375px) {
+  .product-card__price {
+    font-size: 14px;
+  }
 }
 
 .product-card__percent {
