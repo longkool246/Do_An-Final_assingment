@@ -22,7 +22,25 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
+// Sticky_Menu
+window.addEventListener("scroll", function() {
+  var header = document.querySelector(".header");
+  if (window.scrollY > 0) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+});
 
+// Sticky_Menu_mobile
+window.addEventListener("scroll", function() {
+  var headermobi = document.querySelector(".header-mobile");
+  if (window.scrollY > 0) {
+    headermoni.classList.add("sticky");
+  } else {
+    headermobi.classList.remove("sticky");
+  }
+});
 
 const wrapper = document.querySelector('.wrapper');
 const loginLink = document.querySelector('.login-link');

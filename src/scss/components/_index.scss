@@ -1,6 +1,16 @@
 .header {
   background-color: var(--color-primary);
   padding: 12.5px 0;
+  transition: 0.5s ease;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  padding: 20px 0;
+  box-shadow: 0px 5px 6px -6px #999999;
+  transition: 0.3s ease-in;
 }
 
 .header-wrap {
