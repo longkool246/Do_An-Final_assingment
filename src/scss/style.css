@@ -1296,12 +1296,28 @@ select {
   padding-bottom: 20px;
 }
 
+.choose-custom {
+  border-bottom: 1px solid #EAECF0;
+  padding-bottom: 12px;
+  margin-top: 12px;
+}
+
 .choose__check {
   display: flex;
   gap: 10px;
+  width: 100%;
 }
 .choose__check label {
   line-height: 1.71;
+  font-size: 14px;
+  font-weight: 500;
+}
+.choose__check select {
+  width: 100%;
+  border: none;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .choose--secondary {

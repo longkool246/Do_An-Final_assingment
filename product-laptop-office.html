@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/src/scss/style.css">
-  <title>Header</title>
+  <title>Laptop Văn phòng</title>
 </head>
 <body>
   <header class="header">
@@ -110,9 +109,7 @@
                 <div class="popup-user">
                   <p class="popup-greeting">Xin chào, Long Nguyễn</p>
                   <p class="popup-personal">Tài khoản của tôi</p>
-                  <a href="./public/components/header.html">
-                    <p class="popup-personal">Đăng xuất</p>
-                  </a>
+                  <p class="popup-personal">Đăng xuất</p>
                 </div>
               </div>
             </a>
@@ -153,7 +150,6 @@
           </svg>
         </div>
       </div>
-      <div class="header__overlay"></div>
       <div class="navigation">
         <div class="navigation-header">
           <p class="navigation-header__text">Menu</p>
@@ -196,614 +192,408 @@
       </div>
     </div>
   </header>
-  <div class="advert pt-30">
+  <div class="breadcrumb">
     <div class="container">
-      <div class="row">
-        <div class="col paging-col" style="--col-lg: 6;">
-          <img src="/image/image 10.png" alt="">
-          <div class="paging">
-            <div class="paging-now"></div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
-              <circle opacity="0.5" cx="3" cy="3" r="3" fill="#101828"/>
-            </svg><svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
-              <circle opacity="0.5" cx="3" cy="3" r="3" fill="#101828"/>
-            </svg><svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
-              <circle opacity="0.5" cx="3" cy="3" r="3" fill="#101828"/>
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
-              <circle opacity="0.5" cx="3" cy="3" r="3" fill="#101828"/>
-            </svg>
-          </div>
+      <div class="breadcrumb-wrap">
+        <div class="breadcrumb__link">
+          <a href="/index.html">
+            Trang chủ
+          </a>
         </div>
-        <div class="col img-mobile" style="--col-lg: 6;">
-          <img class="img-mobile" src="/image/image 11.png" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="advert pt-30 img-mobile">
-    <div class="container">
-      <div class="row">
-        <div class="col" style="--col-lg: 3;">
-          <img class="img-mobile" src="/image/image 12.png" alt="">
-        </div>
-        <div class="col" style="--col-lg: 3;">
-          <img class="img-mobile" src="/image/image 15.png" alt="">
-        </div>
-        <div class="col" style="--col-lg: 3;">
-          <img class="img-mobile" src="/image/image 13.png" alt="">
-        </div>
-        <div class="col" style="--col-lg: 3;">
-          <img class="img-mobile" src="/image/image 16.png" alt="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="7" viewBox="0 0 6 7" fill="none">
+          <circle cx="3" cy="3.5" r="3" fill="#98A2B3" />
+        </svg>
+        <div class="breadcrumb__link breadcrumb__link--forward">
+          <a href="#">
+            Laptop Văn phòng
+          </a>
         </div>
       </div>
     </div>
   </div>
   <div class="section">
     <div class="container">
-      <div class="section-text">
-        <div class="section-title">
-          LAPTOP GAMING
-        </div>
-        <div class="section-brand">
-          <!-- <li class="mb-none">ASUS</li>
-          <li class="mb-none">ACER</li>
-          <li class="mb-none">MSI</li>
-          <li class="mb-none">LENOVO</li>
-          <li class="mb-none">GIGABYTE</li>
-          <li class="mb-none">DELL</li> -->
-          <a href="./product-laptop-gaming.html">
-            <p class="section-brand__link">
-              Xem tất cả
-            </p>
-          </a>
-        </div>
-      </div>
-      <div class="section-product pt-20">
-        <div class="row">
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <a href="/single-product.html">
-              <div class="product-card">
-                <div class="product-card__img">
-                  <img src="/image/image 7.png" alt="">
-                </div>
-                <h6 class="product-card__title">
-                  Laptop gaming ASUS TUF Gaming F15 FX506HE HN377W
-                </h6>
-                <p class="product-card__discount">
-                  22.990.000đ
+      <div class="row">
+        <div class="col" style="--col-lg: 3;">
+          <div class="shop-sidebar">
+            <div class="shop-sidebar__box">
+              <div class="shop-sidebar__header">
+                <p class="shop-sidebar__title">
+                  BỘ LỌC
                 </p>
-                <div class="product-card__bottom">
-                  <div class="group-price">
-                    <p class="product-card__price">19.990.000đ</p>
-                    <div class="product-card__percent">-13%</div>
+                <i class="fa-solid fa-chevron-up"></i>
+              </div>
+              <div class="choose">
+                <div class="choose__check">
+                  <input type="checkbox" id="gaming" class="test" >
+                  <label for="gaming">Laptop Gaming</label>
+                </div>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="choose">
+                <div class="choose__check">
+                  <input type="checkbox" class="test" id="office" checked="checked">
+                  <label for="office">Laptop văn phòng</label>
+                </div>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="choose">
+                <div class="choose__check">
+                  <input type="checkbox" class="test" id="monitor">
+                  <label for="monitor">Màn hình</label>
+                </div>
+                <i class="fa-solid fa-chevron-up"></i>
+              </div>
+              <div class="choose">
+                <div class="choose__check">
+                  <input type="checkbox" class="test" id="mouse">
+                  <label for="mouse">Chuột</label>
+                </div>
+                <i class="fa-solid fa-chevron-up"></i>
+              </div>
+              <div class="choose">
+                <div class="choose__check">
+                  <input type="checkbox" class="test" id="keyboard">
+                  <label for="keyboard">Bàn phím</label>
+                </div>
+                <i class="fa-solid fa-chevron-up"></i>
+              </div>
+              <div class="choose">
+                <div class="choose__check">
+                  <input type="checkbox" class="test" id="other">
+                  <label for="other">Khác</label>
+                </div>
+                <i class="fa-solid fa-chevron-up"></i>
+              </div>
+            </div>
+            <div class="choose choose-custom">
+                <div class="choose__check">
+                    <select name="brand" id="brand">
+                        <option>Thương hiệu</option>
+                        <option value="asus">ASUS</option>
+                        <option value="acer">ACER</option>
+                        <option value="dell">DELL</option>
+                        <option value="gigabyte">GIGABYTE</option>
+                        <option value="hp">HP</option>
+                        <option value="lenovo">LENOVO</option>
+                        <option value="lg">LG</option>
+                        <option value="msi">MSI</option>
+                    </select>
+                </div>
+              </div>
+              <div class="choose choose-custom">
+                <div class="choose__check">
+                    <select name="brand" id="brand">
+                        <option>CPU Intel - AMD</option>
+                    </select>
+                </div>
+              </div>
+              <div class="choose choose-custom">
+                <div class="choose__check">
+                    <select name="brand" id="brand">
+                        <option>Màn hình</option>
+                        <option value="13">13 inch</option>
+                        <option value="14">14 inch</option>
+                        <option value="14">14.5 inch</option>
+                        <option value="15">15.6 inch</option>
+                        <option value="16">16 inch</option>
+                        <option value="17">17 inch</option>
+                        <option value="18">18 inch</option>
+                    </select>
+                </div>
+              </div>
+              <div class="choose choose-custom">
+                <div class="choose__check">
+                    <select name="brand" id="brand">
+                        <option>RAM</option>
+                    </select>
+                </div>
+              </div>
+              <div class="choose choose-custom">
+                <div class="choose__check">
+                    <select name="brand" id="brand">
+                        <option>SSD</option>
+                    </select>
+                </div>
+              </div>
+              <div class="choose choose-custom">
+                <div class="choose__check">
+                    <select name="brand" id="brand">
+                        <option>VGA</option>
+                    </select>
+                </div>
+              </div>
+              <div class="choose choose-custom">
+                <div class="choose__check">
+                    <select name="brand" id="brand">
+                        <option>Nhu cầu sử dụng</option>
+                    </select>
+                </div>
+              </div>
+              <div class="choose" style="margin-top: 12px;">
+                <div class="choose__check">
+                    <select name="brand" id="brand">
+                        <option>Giá</option>
+                    </select>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col" style="--col-lg: 9;">
+          <div class="section-text">
+            <div class="section-title">
+              Laptop Văn Phòng
+            </div>
+            <div class="shop-main__input">
+              <select name="sort" id="sort">
+                <option>Xếp theo: <span style="font-size: 14px; font-weight: 600;">Nổi bật</span></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+            </div>
+          </div>
+          <div class="section-product pt-20">
+            <div class="row">
+              <div class="col" style="--col-lg: 4">
+                <a href="/single-product.html">
+                  <div class="product-card">
+                    <div class="product-card__img">
+                      <img src="/image/laptop-study.png" alt="">
+                    </div>
+                    <h6 class="product-card__title">
+                        Laptop Dell Vostro 3530 V5I5267W1 Gray
+                    </h6>
+                    <p class="product-card__discount">
+                        18.190.000đ
+                    </p>
+                    <div class="product-card__bottom">
+                      <div class="group-price">
+                        <p class="product-card__price">16.990.000đ</p>
+                        <div class="product-card__percent">-7%</div>
+                      </div>
+                    </div>
                   </div>
-                  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                    <path
-                      d="M15.75 4.49998H15.394C15.8338 3.6556 15.9391 2.60003 15.2871 1.47408C14.7347 0.520046 13.7232 -0.0091612 12.6207 0.00012005C11.1775 0.0122138 10.2382 0.764839 9.03516 2.40379C7.83176 0.764347 6.88788 0.0117216 5.44388 0.00012005C4.34187 -0.00880964 3.33091 0.520468 2.77871 1.47422C2.12681 2.60003 2.23214 3.6556 2.67188 4.49998H2.25C1.00737 4.49998 0 5.50728 0 6.74998V8.99998C0 9.62126 0.503719 10.125 1.125 10.125V15.75C1.125 16.9926 2.13237 18 3.375 18H14.625C15.8677 18 16.875 16.9926 16.875 15.75V10.125C17.4964 10.125 18 9.62126 18 8.99998V6.74998C18 5.50728 16.9927 4.49998 15.75 4.49998ZM12.6562 1.68748C13.4297 1.68748 14.0625 2.32029 14.0625 3.09373C14.0625 3.86717 13.4297 4.49998 12.6562 4.49998H9.62842C11.4346 1.81053 11.9399 1.68748 12.6562 1.68748ZM5.40967 1.68748C6.11279 1.68748 6.62695 1.80174 8.4375 4.49998H5.40967C4.63623 4.49998 4.00342 3.86717 4.00342 3.09373C4.00342 2.32029 4.63623 1.68748 5.40967 1.68748ZM7.875 16.3125H3.375C3.06485 16.3125 2.8125 16.0601 2.8125 15.75V10.125H7.875V16.3125ZM15.1875 15.75C15.1875 16.0601 14.9351 16.3125 14.625 16.3125H10.125V10.125H15.1875V15.75ZM16.3125 8.43748H1.6875V6.74998C1.6875 6.43983 1.93985 6.18748 2.25 6.18748H15.75C16.0601 6.18748 16.3125 6.43983 16.3125 6.74998V8.43748Z"
-                      fill="#E30119" />
-                  </svg> -->
+                </a>
+              </div>
+              <div class="col" style="--col-lg: 4">
+                <div class="product-card">
+                  <div class="product-card__img">
+                    <img src="/image/laptop-inspiron.png" alt="">
+                  </div>
+                  <h6 class="product-card__title">
+                    Laptop Dell Inspiron T7430 N7430I58W1 Silver
+                  </h6>
+                  <p class="product-card__discount">
+                    24.390.000đ
+                  </p>
+                  <div class="product-card__bottom">
+                    <div class="group-price">
+                      <p class="product-card__price">22.990.000đ</p>
+                      <div class="product-card__percent">-6%</div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </a>
-          </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/laptop-predator.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Laptop gaming Acer Predator Helios 300 PH315 55 76KG
-              </h6>
-              <p class="product-card__discount">
-                48.490.000đt
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">25.490.000đ</p>
-                  <div class="product-card__percent">-36%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/laptop-msi.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Laptop gaming MSI GF63 12UCX 841VN Singapore version 2024
-              </h6>
-              <p class="product-card__discount">
-                17.990.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">15.990.000đ</p>
-                  <div class="product-card__percent">-11%</div>
+              <div class="col" style="--col-lg: 4">
+                <div class="product-card">
+                  <div class="product-card__img">
+                    <img src="/image/laptop-msi.png" alt="">
+                  </div>
+                  <h6 class="product-card__title">
+                    Laptop MSI Modern 15 B7M 099VN
+                  </h6>
+                  <p class="product-card__discount">
+                    14.490.000đ
+                  </p>
+                  <div class="product-card__bottom">
+                    <div class="group-price">
+                      <p class="product-card__price">11.990.000đ</p>
+                      <div class="product-card__percent">-17%</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/laptop-lenovo.png" alt="">
+          <div class="section-product pt-20">
+            <div class="row">
+              <div class="col" style="--col-lg: 4">
+                <div class="product-card">
+                  <div class="product-card__img">
+                    <img src="/image/laptop-study.png" alt="">
+                  </div>
+                  <h6 class="product-card__title">
+                    Laptop MSI Modern 15 B12M 628VN
+                  </h6>
+                  <p class="product-card__discount">
+                    14.490.000đ
+                  </p>
+                  <div class="product-card__bottom">
+                    <div class="group-price">
+                      <p class="product-card__price">13.890.000đ</p>
+                      <div class="product-card__percent">-4%</div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <h6 class="product-card__title">
-                Laptop gaming Lenovo LOQ 15IRX9 83DV000MVN HQ 1200hz
-              </h6>
-              <p class="product-card__discount">
-                28.990.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">27.490.000đ</p>
-                  <div class="product-card__percent">-8%</div>
+              <div class="col" style="--col-lg: 4">
+                <div class="product-card">
+                  <div class="product-card__img">
+                    <img src="/image/laptop-msi.png" alt="">
+                  </div>
+                  <h6 class="product-card__title">
+                    Laptop MSI Modern 15 B7M 098VN
+                  </h6>
+                  <p class="product-card__discount">
+                    16.490.000đ
+                  </p>
+                  <div class="product-card__bottom">
+                    <div class="group-price">
+                      <p class="product-card__price">13.990.000đ</p>
+                      <div class="product-card__percent">-15%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="--col-lg: 4">
+                <div class="product-card">
+                  <div class="product-card__img">
+                    <img src="/image/office-4.png" alt="">
+                  </div>
+                  <h6 class="product-card__title">
+                    Laptop MSI Modern 14 C13M 458VN
+                  </h6>
+                  <p class="product-card__discount">
+                    17.990.000đ
+                  </p>
+                  <div class="product-card__bottom">
+                    <div class="group-price">
+                      <p class="product-card__price">13.990.000đ</p>
+                      <div class="product-card__percent">-22%</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="section">
-    <div class="container">
-      <div class="section-text">
-        <div class="section-title">
-          LAPTOP VĂN PHÒNG
-        </div>
-        <div class="section-brand">
-          <a href="./product-laptop-office.html">
-            <p class="section-brand__link">
-              Xem tất cả
-            </p>
-          </a>
-        </div>
-      </div>
-      <div class="section-product pt-20">
-        <div class="row">
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/office-1.png" alt="">
+          <div class="section-product pt-20">
+            <div class="row">
+              <div class="col" style="--col-lg: 4">
+                <div class="product-card">
+                  <div class="product-card__img">
+                    <img src="/image/office-4.png" alt="">
+                  </div>
+                  <h6 class="product-card__title">
+                    Laptop MSI Modern 14 C13M 609VN
+                  </h6>
+                  <p class="product-card__discount">
+                    17.990.000đ
+                  </p>
+                  <div class="product-card__bottom">
+                    <div class="group-price">
+                      <p class="product-card__price">13.990.000đ</p>
+                      <div class="product-card__percent">-22%</div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <h6 class="product-card__title">
-                Laptop ASUS Zenbook 14 OLED UM3402YA KM405W
-              </h6>
-              <p class="product-card__discount">
-                24.990.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">20.990.000đ</p>
-                  <div class="product-card__percent">-16%</div>
+              <div class="col" style="--col-lg: 4">
+                <div class="product-card">
+                  <div class="product-card__img">
+                    <img src="/image/office-4.png" alt="">
+                  </div>
+                  <h6 class="product-card__title">
+                    Laptop Asus Vivobook 15 OLED A1505VA L1114W
+                  </h6>
+                  <p class="product-card__discount">
+                    22.990.000đ
+                  </p>
+                  <div class="product-card__bottom">
+                    <div class="group-price">
+                      <p class="product-card__price">17.990.000đ</p>
+                      <div class="product-card__percent">-14%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="--col-lg: 4">
+                <div class="product-card">
+                  <div class="product-card__img">
+                    <img src="/image/office-2.png" alt="">
+                  </div>
+                  <h6 class="product-card__title">
+                    Laptop ASUS Vivobook 14 OLED A1405VA KM095W
+                  </h6>
+                  <p class="product-card__discount">
+                    20.990.000đ
+                  </p>
+                  <div class="product-card__bottom">
+                    <div class="group-price">
+                      <p class="product-card__price">17.990.000đ</p>
+                      <div class="product-card__percent">-13%</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/office-2.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Laptop ASUS Vivobook 16 M1605YA MB303W FG184956HE
-              </h6>
-              <p class="product-card__discount">
-                18.490.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">15.990.000đ</p>
-                  <div class="product-card__percent">-14%</div>
+          <div class="section-product pt-20">
+            <div class="row">
+              <div class="col" style="--col-lg: 4">
+                <div class="product-card">
+                  <div class="product-card__img">
+                    <img src="/image/laptop-study.png" alt="">
+                  </div>
+                  <h6 class="product-card__title">
+                    Laptop Asus ZenBook Flip OLED UP3404VA KN039W
+                  </h6>
+                  <p class="product-card__discount">
+                    33.990.000đ
+                  </p>
+                  <div class="product-card__bottom">
+                    <div class="group-price">
+                      <p class="product-card__price">29.990.000đ</p>
+                      <div class="product-card__percent">-12%</div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/office-3.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Laptop ASUS Zenbook 14 OLED UX3402VA KM068W New Version 2024
-              </h6>
-              <p class="product-card__discount">
-                31.990.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">27.990.000đ</p>
-                  <div class="product-card__percent">-13%</div>
+              <div class="col" style="--col-lg: 4">
+                <div class="product-card">
+                  <div class="product-card__img">
+                    <img src="/image/laptop-inspiron.png" alt="">
+                  </div>
+                  <h6 class="product-card__title">
+                    Laptop ASUS Zenbook 14 OLED UX3402VA KM068W
+                  </h6>
+                  <p class="product-card__discount">
+                    31.990.000đ
+                  </p>
+                  <div class="product-card__bottom">
+                    <div class="group-price">
+                      <p class="product-card__price">27.990.000đ</p>
+                      <div class="product-card__percent">-13%</div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/office-4.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Laptop MSI Modern 15 C13M 438VN Modern C9 2024 Version New
-              </h6>
-              <p class="product-card__discount">
-                18.490.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">15.990.000đ</p>
-                  <div class="product-card__percent">-14%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="section">
-    <div class="container">
-      <div class="section-text">
-        <div class="section-title">
-          CHUỘT
-        </div>
-        <div class="section-brand">
-          <a href="#">
-            <p class="section-brand__link">
-              Xem tất cả
-            </p>
-          </a>
-        </div>
-      </div>
-      <div class="section-product pt-20">
-        <div class="row">
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/mouse-1.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Laptop gaming ASUS TUF Gaming F15 FX506HE HN377W
-              </h6>
-              <p class="product-card__discount">
-                599.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">399.000đ</p>
-                  <div class="product-card__percent">-33%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/mouse-2.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Chuột Logitech G304 Wireless Full White Auto Z1000 2024
-              </h6>
-              <p class="product-card__discount">
-                1.090.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">780.000đ</p>
-                  <div class="product-card__percent">-28%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/mouse-3.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Chuột Razer Basilisk V3 Full White Auto Z1000 New 2024
-              </h6> 
-              <p class="product-card__discount">
-                1.990.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">990.000đ</p>
-                  <div class="product-card__percent">-50%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/mouse-4.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Chuột Asus ROG Harpe Ace Aim Lab White Full White Auto Z1000
-              </h6>
-              <p class="product-card__discount">
-                3.490.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">2.790.000đ</p>
-                  <div class="product-card__percent">-20%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="section">
-    <div class="container">
-      <div class="section-text">
-        <div class="section-title">
-          BÀN PHÍM
-        </div>
-        <div class="section-brand">
-          <a href="#">
-            <p class="section-brand__link">
-              Xem tất cả
-            </p>
-          </a>
-        </div>
-      </div>
-      <div class="section-product pt-20">
-        <div class="row">
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/keyboard-1.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Bàn phím cơ AKKO 5108S Black Pink Jelly Purple Full White Auto Z1000
-              </h6>
-              <p class="product-card__discount">
-                1.890.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">1.490.000đ</p>
-                  <div class="product-card__percent">-22%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/keyboard-2.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Bàn phím DareU EK87V2 White Red Switch Full White Auto Z1000
-              </h6>
-              <p class="product-card__discount">
-                699.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">549.000đ</p>
-                  <div class="product-card__percent">-21%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/keyboard-3.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Bàn Phím Bluetooth Logitech K380 Black Full White Auto Z1000
-              </h6>
-              <p class="product-card__discount">
-                799.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">609.000đ</p>
-                  <div class="product-card__percent">-24%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/keyboard-4.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Bàn phím Razer Blackwidow V3 Green Switch Full White Auto Z1000
-              </h6>
-              <p class="product-card__discount">
-
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">19.990.000đ</p>
-                  <!-- <div class="product-card__percent"></div> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="section">
-    <div class="container">
-      <div class="section-text">
-        <div class="section-title">
-          MÀN HÌNH CHÍNH HÃNG
-        </div>
-        <div class="section-brand">
-          <a href="#">
-            <p class="section-brand__link">
-              Xem tất cả
-            </p>
-          </a>
-        </div>
-      </div>
-      <div class="section-product pt-20">
-        <div class="row">
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/monitor-1.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Màn hình Asus TUF GAMING VG249Q3A 24" Fast IPS 180Hz Full White Auto Z1000
-              </h6>
-              <p class="product-card__discount">
-                3.990.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">3.690.000đ</p>
-                  <div class="product-card__percent">-8%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/monitor-2.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Màn hình AOC Q24G2 24" IPS 2K 165Hz Full White Auto Z1000
-              </h6>
-              <p class="product-card__discount">
-                5.990.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">5.290.000đ</p>
-                  <div class="product-card__percent">-12%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/monitor-3.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Màn hình ViewSonic VA2209-H 22" IPS FHD 100Hz Full White Auto Z1000
-              </h6>
-              <p class="product-card__discount">
-                3.600.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">2.090.000đ</p>
-                  <div class="product-card__percent">-42%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/monitor-4.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Màn hình Viewsonic VA2432-H 24" IPS 100Hz Full White Auto Z1000
-              </h6>
-              <p class="product-card__discount">
-                4.550.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">2.390.000đ</p>
-                  <div class="product-card__percent">-47%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section-product pt-20">
-        <div class="row">
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/monitor-5.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Màn hình ASUS VZ27EHF 27" IPS 100Hz Full White Auto Z1000
-              </h6>
-              <p class="product-card__discount">
-                3.990.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">3.390.000đ</p>
-                  <div class="product-card__percent">-15%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/monitor-6.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Màn hình LG 24GN65R-B 24" IPS 144Hz HDR10 Full White Auto Z1000
-              </h6>
-              <p class="product-card__discount">
-                6.090.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">3.590.000đ</p>
-                  <div class="product-card__percent">-61%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/monitor-7.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Màn hình Lenovo L24q-35 24" IPS 2K 75Hz Full White Auto Z1000
-              </h6>
-              <p class="product-card__discount">
-                6.790.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">4.190.000đ</p>
-                  <div class="product-card__percent">-13%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
-            <div class="product-card">
-              <div class="product-card__img">
-                <img src="/image/monitor-8.png" alt="">
-              </div>
-              <h6 class="product-card__title">
-                Màn hình MSI OPTIX MAG274QRX 27" IPS 2K 240Hz Full White Auto Z1000
-              </h6>
-              <p class="product-card__discount">
-                10.490.000đ
-              </p>
-              <div class="product-card__bottom">
-                <div class="group-price">
-                  <p class="product-card__price">9.590.000đ</p>
-                  <div class="product-card__percent">-9%</div>
+              <div class="col" style="--col-lg: 4">
+                <div class="product-card">
+                  <div class="product-card__img">
+                    <img src="/image/laptop-msii.png" alt="">
+                  </div>
+                  <h6 class="product-card__title">
+                    Laptop ASUS Zenbook 14 OLED UX3402VA KM068W
+                  </h6>
+                  <p class="product-card__discount">
+                    31.990.000đ
+                  </p>
+                  <div class="product-card__bottom">
+                    <div class="group-price">
+                      <p class="product-card__price">27.990.000đ</p>
+                      <div class="product-card__percent">-13%</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -826,7 +616,7 @@
       </div>
       <div class="extra-news">
         <div class="row">
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
+          <div class="col" style="--col-lg: 3;">
             <div class="extra-news__item">
               <div class="extra-news__img">
                 <img src="/image/news-1.png" alt="">
@@ -845,7 +635,7 @@
               </div>
             </div>
           </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
+          <div class="col" style="--col-lg: 3;">
             <div class="extra-news__item">
               <div class="extra-news__img">
                 <img src="/image/news-2.png" alt="">
@@ -864,7 +654,7 @@
               </div>
             </div>
           </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
+          <div class="col" style="--col-lg: 3;">
             <div class="extra-news__item">
               <div class="extra-news__img">
                 <img src="/image/news-3.png" alt="">
@@ -883,7 +673,7 @@
               </div>
             </div>
           </div>
-          <div class="col" style="--col-lg: 3; --col-xs: 6;">
+          <div class="col" style="--col-lg: 3;">
             <div class="extra-news__item">
               <div class="extra-news__img">
                 <img src="/image/news-4.png" alt="">
@@ -916,7 +706,7 @@
                 <img src="/image/Asset 5.png" alt="">
               </div>
               <div class="main__content">
-                Chào mừng bạn đến LAPTOPVN, nơi tuyệt vời để khám phá và sở hữu những chiếc laptop hàng đầu.
+                  Chào mừng bạn đến LAPTOPVN, nơi tuyệt vời để khám phá và sở hữu những chiếc laptop hàng đầu.
               </div>
               <div class="group-footer-content">
                 <div class="main__content">
@@ -950,15 +740,15 @@
             </div>
           </div>
           <div class="col" style="--col-lg: 3; --col-xs: 12;">
-            <div class="infor__column infor-policy">
-              <h6 class="infor__title">CHÍNH SÁCH</h6>
-              <ul class="infor__content">
-                <li><a href="">Chính sách bảo hành</a></li>
-                <li><a href="">Chính sách thanh toán</a></li>
-                <li><a href="">Chính sách đổi giao hàng</a></li>
-                <li><a href="">Chính sách bảo mật</a></li>
-              </ul>
-            </div>
+          <div class="infor__column infor-policy">
+            <h6 class="infor__title">CHÍNH SÁCH</h6>
+            <ul class="infor__content">
+              <li><a href="">Chính sách bảo hành</a></li>
+              <li><a href="">Chính sách thanh toán</a></li>
+              <li><a href="">Chính sách đổi giao hàng</a></li>
+              <li><a href="">Chính sách bảo mật</a></li>
+            </ul>
+          </div>
           </div>
         </div>
         <div class="footer-bottom">
@@ -974,7 +764,5 @@
       </div>
     </section>
   </footer>
-  <script src="/src/index.js"></script>
 </body>
-
 </html>
