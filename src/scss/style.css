@@ -344,6 +344,7 @@ select {
   border-radius: 4px;
   display: none;
   transition: 0.5s;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.12);
 }
 
 .btnLogin-popup:hover .popup-user {
