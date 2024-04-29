@@ -2833,7 +2833,7 @@ select {
 }
 .personal-infor .button-save-changes button {
   cursor: pointer;
-  width: 240px;
+  width: 144px;
   height: 48px;
   background-color: #1982F8;
   color: #fff;
@@ -3000,7 +3000,7 @@ select {
 }
 .personal-manage-order-container .product-container .header-product {
   height: 76px;
-  background-color: #1982F8;
+  background-color: #EAECF0;
   border-radius: 4px 4px 0 0;
   padding: 12px 16px;
   display: flex;
@@ -3009,7 +3009,7 @@ select {
   width: 876px;
 }
 .personal-manage-order-container .product-container .header-product .title-order .small-title-order a {
-  color: #fff;
+  color: #101828;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -3022,7 +3022,7 @@ select {
   margin-top: 10px;
 }
 .personal-manage-order-container .product-container .header-product .title-order .date-order p {
-  color: #fff;
+  color: #101828;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
