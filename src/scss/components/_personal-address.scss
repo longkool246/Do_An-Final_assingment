@@ -60,12 +60,15 @@
     }
     .info-address{
         margin-top: 16px;
+        @media (max-width: 375px) {
+            margin-top: 8px;
+        }
         .title-info-address{
             display: flex;
             .title-header{
                 width: 759px;
                 @media (max-width: 375px) {
-                    width: 129px;
+                    width: auto;
                 }
                 p{
                     color: #000;
@@ -152,6 +155,9 @@
             }
             .input-text{
                 margin-top: 16px;
+                @media (max-width: 375px) {
+                    margin-top: 8px;
+                }
                 input{
                     width: 100%;
                     height: 48px;
@@ -168,6 +174,10 @@
                 margin-top: 16px;
                 display: flex;
                 justify-content: space-between;
+                @media (max-width: 375px) {
+                    margin-top: 8px;
+                    display: block;
+                }
                 select{
                     cursor: pointer;
                     width: 49.21%;
@@ -177,6 +187,10 @@
                     background-repeat: no-repeat;
                     background-position: right 1rem top 50%;
                     background-size: 24px 24px;
+                    @media (max-width: 375px) {
+                        width: 100%;
+                        margin-top: 8px;
+                    }
                 }
                 input{
                     width: 49.21%;
@@ -187,6 +201,10 @@
                     border: 1px solid #D0D5DD;
                     background: #FFF;
                     outline: 5px;
+                    @media (max-width: 375px) {
+                        width: 100%;
+                        margin-top: 8px;
+                    }
                 }
             }
             .type-address{
@@ -227,7 +245,18 @@
         .button-address{
             display: flex;
             justify-content: flex-end;
+            @media (max-width: 375px) {
+                justify-content: space-between;
+            }
+            a{
+                @media (max-width: 375px) {
+                    width: 48.5%;
+                }
+            }
             .btn-back{
+                @media (max-width: 375px) {
+                    width: 100%;
+                }
                 button{
                     cursor: pointer;
                     border-radius: 4px;
@@ -239,10 +268,17 @@
                     font-size: 16px;
                     font-style: normal;
                     font-weight: 600;
+                    @media (max-width: 375px) {
+                        width: 100%;
+                    }
                 }
             }
             .btn-submit{
                 margin-left: 16px;
+                @media (max-width: 375px) {
+                    width: 100%;
+                    margin-left: 0;
+                }
                 button{
                     cursor: pointer;
                     border-radius: 4px;
@@ -254,6 +290,9 @@
                     font-size: 16px;
                     font-style: normal;
                     font-weight: 600;
+                    @media (max-width: 375px) {
+                        width: 100%;
+                    }
                 }
             }
             button{

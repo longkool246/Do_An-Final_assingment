@@ -23,12 +23,25 @@
             }
             .personal-avatar-profile{
                 display: flex;
+                .avatar-profile{
+                    img{
+                        @media (max-width: 375px) {
+                            width: 40px;
+                        }
+                    }
+                }
                 .username-profile{
                     padding: 15px 30px;
+                    @media (max-width: 375px) {
+                        padding: 8px;
+                    }
                     p{
                         font-size: 20px;
                         font-weight: 600;
                         color: #101828;
+                        @media (max-width: 375px) {
+                            font-size: 16px;
+                        }
                     }
                 }
             }
@@ -36,14 +49,23 @@
                 margin-top: 16px;
                 border: 1px solid #EAECF0;
                 width: 100%;
+                @media (max-width: 375px) {
+                    margin-top: 8px;
+                }
             }
             .personal-option{
                 display: flex;
                 margin-top: 16px;
+                @media (max-width: 375px) {
+                    margin-top: 8px;
+                }
                 a{
                     margin-left: 8px;
                     font-weight: 600;
                     color: #101828;
+                    @media (max-width: 375px) {
+                        font-size: 14px;
+                    }
                 }
             }
             .active{
