@@ -42,4 +42,7 @@ $fontSecondary: 'Inter', sans-serif;
 
 .mt-204 {
   margin-top: 204px;
+  @media (max-width: 375px) {
+    margin-top: 12px;
+  }
 }

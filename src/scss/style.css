@@ -1998,6 +1998,11 @@ select {
 .mt-204 {
   margin-top: 204px;
 }
+@media (max-width: 375px) {
+  .mt-204 {
+    margin-top: 12px;
+  }
+}
 
 .admin-login-wrapper {
   width: 100%;
@@ -2708,6 +2713,14 @@ select {
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
+  border-radius: 4px;
+}
+@media (max-width: 375px) {
+  .personal-container-wrapper .personal-container {
+    max-width: 359px;
+    display: block;
+    padding-top: 12px;
+  }
 }
 .personal-container-wrapper .personal-container .personal-side-bar {
   width: 22.88%;
@@ -2715,6 +2728,12 @@ select {
   height: fit-content;
   background-color: #fff;
   padding: 12px 16px;
+}
+@media (max-width: 375px) {
+  .personal-container-wrapper .personal-container .personal-side-bar {
+    width: 100%;
+    padding: 8px;
+  }
 }
 .personal-container-wrapper .personal-container .personal-side-bar .personal-avatar-profile {
   display: flex;
@@ -2752,6 +2771,13 @@ select {
   background-color: #fff;
   padding: 12px 16px;
 }
+@media (max-width: 375px) {
+  .personal-infor {
+    width: 100%;
+    margin-top: 12px;
+    padding: 8px;
+  }
+}
 .personal-infor .personal-info-title p {
   color: #101828;
   font-family: Inter;
@@ -2759,29 +2785,60 @@ select {
   font-style: normal;
   font-weight: 600;
 }
+@media (max-width: 375px) {
+  .personal-infor .personal-info-title p {
+    font-size: 16px;
+  }
+}
 .personal-infor .personal-info-vecto {
   width: 100%;
   margin-top: 16px;
   border: 1px solid #EAECF0;
 }
+@media (max-width: 375px) {
+  .personal-infor .personal-info-vecto {
+    margin-top: 8px;
+  }
+}
 .personal-infor .personal-text {
   margin-top: 16px;
   display: flex;
+}
+@media (max-width: 375px) {
+  .personal-infor .personal-text {
+    display: block;
+  }
 }
 .personal-infor .personal-text .small-title {
   width: 14.29%;
   height: auto;
   padding: 12px 0 12px 0;
 }
+@media (max-width: 375px) {
+  .personal-infor .personal-text .small-title {
+    width: 100%;
+    padding: 0 0 8px 0;
+  }
+}
 .personal-infor .personal-text .small-title p {
   color: #000;
   font-style: normal;
   font-weight: 400;
 }
+@media (max-width: 375px) {
+  .personal-infor .personal-text .small-title p {
+    font-size: 14px;
+  }
+}
 .personal-infor .personal-text .text-input-box, .personal-infor .personal-text .radio-input-box, .personal-infor .personal-text .select-input-dob {
   width: 85.71%;
   height: auto;
   display: flex;
+}
+@media (max-width: 375px) {
+  .personal-infor .personal-text .text-input-box, .personal-infor .personal-text .radio-input-box, .personal-infor .personal-text .select-input-dob {
+    width: 100%;
+  }
 }
 .personal-infor .personal-text .text-input-box input {
   width: 100%;
@@ -2794,14 +2851,29 @@ select {
   font-style: normal;
   font-weight: 400;
 }
+@media (max-width: 375px) {
+  .personal-infor .personal-text .text-input-box input {
+    font-size: 14px;
+  }
+}
 .personal-infor .personal-text .radio-input-box {
   padding: 12px 0 12px 0;
+}
+@media (max-width: 375px) {
+  .personal-infor .personal-text .radio-input-box {
+    padding: 0;
+  }
 }
 .personal-infor .personal-text .radio-input-box .radio-input {
   margin-right: 30px;
   display: flex;
   gap: 16px;
   align-items: center;
+}
+@media (max-width: 375px) {
+  .personal-infor .personal-text .radio-input-box .radio-input {
+    gap: 8px;
+  }
 }
 .personal-infor .personal-text .radio-input-box input {
   width: 24px;
@@ -2811,9 +2883,19 @@ select {
   color: #000;
   font-weight: 400;
 }
+@media (max-width: 375px) {
+  .personal-infor .personal-text .radio-input-box label {
+    font-size: 14px;
+  }
+}
 .personal-infor .personal-text .select-input-dob {
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 375px) {
+  .personal-infor .personal-text .select-input-dob {
+    display: block;
+  }
 }
 .personal-infor .personal-text .select-input-dob select {
   cursor: pointer;
@@ -2827,10 +2909,22 @@ select {
   background-position: right 1rem top 50%;
   background-size: 24px 24px;
 }
+@media (max-width: 375px) {
+  .personal-infor .personal-text .select-input-dob select {
+    width: 100%;
+    height: 48px;
+    margin-top: 8px;
+  }
+}
 .personal-infor .button-save-changes {
   margin-top: 16px;
   display: flex;
   justify-content: flex-end;
+}
+@media (max-width: 375px) {
+  .personal-infor .button-save-changes {
+    margin-top: 8px;
+  }
 }
 .personal-infor .button-save-changes button {
   cursor: pointer;
@@ -2847,6 +2941,11 @@ select {
 .personal-infor .button-save-changes button:hover {
   background-color: #50A9FB;
 }
+@media (max-width: 375px) {
+  .personal-infor .button-save-changes button {
+    width: 100%;
+  }
+}
 
 .personal-infor-address {
   width: 75.03%;
@@ -2855,11 +2954,23 @@ select {
   background-color: #fff;
   padding: 12px 16px;
 }
+@media (max-width: 375px) {
+  .personal-infor-address {
+    width: 100%;
+    margin-top: 12px;
+    padding: 8px;
+  }
+}
 .personal-infor-address .header-personal-info-address {
   display: flex;
 }
 .personal-infor-address .header-personal-info-address .title-header {
   width: 824px;
+}
+@media (max-width: 375px) {
+  .personal-infor-address .header-personal-info-address .title-header {
+    width: 165px;
+  }
 }
 .personal-infor-address .header-personal-info-address .title-header p {
   color: #101828;
@@ -2867,12 +2978,22 @@ select {
   font-style: normal;
   font-weight: 600;
 }
+@media (max-width: 375px) {
+  .personal-infor-address .header-personal-info-address .title-header p {
+    font-size: 16px;
+  }
+}
 .personal-infor-address .header-personal-info-address .add-address-new {
   display: flex;
   justify-content: flex-end;
   width: calc(100% - 824px);
   padding: 3px 0;
   margin-left: 30px;
+}
+@media (max-width: 375px) {
+  .personal-infor-address .header-personal-info-address .add-address-new {
+    width: calc(100% - 165px);
+  }
 }
 .personal-infor-address .header-personal-info-address .add-address-new a {
   color: #101828;
@@ -2885,10 +3006,20 @@ select {
 .personal-infor-address .header-personal-info-address .add-address-new a:hover {
   color: #667085;
 }
+@media (max-width: 375px) {
+  .personal-infor-address .header-personal-info-address .add-address-new a {
+    font-size: 14px;
+  }
+}
 .personal-infor-address .personal-info-address-vecto {
   width: 100%;
   margin-top: 16px;
   border: 1px solid #EAECF0;
+}
+@media (max-width: 375px) {
+  .personal-infor-address .personal-info-address-vecto {
+    margin-top: 8px;
+  }
 }
 .personal-infor-address .info-address {
   margin-top: 16px;
@@ -2899,11 +3030,21 @@ select {
 .personal-infor-address .info-address .title-info-address .title-header {
   width: 759px;
 }
+@media (max-width: 375px) {
+  .personal-infor-address .info-address .title-info-address .title-header {
+    width: 129px;
+  }
+}
 .personal-infor-address .info-address .title-info-address .title-header p {
   color: #000;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
+}
+@media (max-width: 375px) {
+  .personal-infor-address .info-address .title-info-address .title-header p {
+    font-size: 14px;
+  }
 }
 .personal-infor-address .info-address .title-info-address .default-address {
   display: flex;
@@ -2911,9 +3052,20 @@ select {
   width: calc(100% - 775px);
   margin-left: 16px;
 }
+@media (max-width: 375px) {
+  .personal-infor-address .info-address .title-info-address .default-address {
+    width: calc(100% - 129px);
+    margin-left: 8px;
+  }
+}
 .personal-infor-address .info-address .title-info-address .default-address .text-update {
   margin-left: 16px;
   padding: 1px 0;
+}
+@media (max-width: 375px) {
+  .personal-infor-address .info-address .title-info-address .default-address .text-update {
+    margin-left: 8px;
+  }
 }
 .personal-infor-address .info-address .title-info-address .default-address .text-update a {
   color: #1982F8;
@@ -2923,12 +3075,22 @@ select {
   font-weight: 400;
   transition: all 0.3 ease;
 }
+@media (max-width: 375px) {
+  .personal-infor-address .info-address .title-info-address .default-address .text-update a {
+    font-size: 14px;
+  }
+}
 .personal-infor-address .info-address .title-info-address .default-address .text-update a:hover {
   color: #75C1FD;
 }
 .personal-infor-address .info-address .title-info-address .default-address .text-delete {
   margin-left: 32px;
   padding: 1px 0;
+}
+@media (max-width: 375px) {
+  .personal-infor-address .info-address .title-info-address .default-address .text-delete {
+    margin-left: 16px;
+  }
 }
 .personal-infor-address .info-address .title-info-address .default-address .text-delete a {
   color: #C30028;
@@ -2938,11 +3100,21 @@ select {
   font-weight: 400;
   transition: all 0.3 ease;
 }
+@media (max-width: 375px) {
+  .personal-infor-address .info-address .title-info-address .default-address .text-delete a {
+    font-size: 14px;
+  }
+}
 .personal-infor-address .info-address .title-info-address .default-address .text-delete a:hover {
   color: #F66E62;
 }
 .personal-infor-address .info-address .content-address {
   margin-top: 16px;
+}
+@media (max-width: 375px) {
+  .personal-infor-address .info-address .content-address {
+    margin-top: 8px;
+  }
 }
 .personal-infor-address .info-address .content-address p {
   color: #667085;
@@ -2950,8 +3122,18 @@ select {
   font-style: normal;
   font-weight: 400;
 }
+@media (max-width: 375px) {
+  .personal-infor-address .info-address .content-address p {
+    font-size: 14px;
+  }
+}
 .personal-infor-address .info-address .content-address .content-addr {
   margin-top: 10px;
+}
+@media (max-width: 375px) {
+  .personal-infor-address .info-address .content-address .content-addr {
+    margin-top: 6px;
+  }
 }
 .personal-infor-address .info-address .content-address .input-text {
   margin-top: 16px;

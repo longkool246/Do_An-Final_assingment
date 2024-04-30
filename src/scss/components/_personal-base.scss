@@ -6,11 +6,21 @@
         display: flex;
         justify-content: space-between;
         padding-top: 30px;
+        border-radius: 4px;
+        @media (max-width: 375px) {
+            max-width: 359px;
+            display: block;
+            padding-top: 12px;
+        }
         .personal-side-bar{
             width: 22.88%;
             height: fit-content;
             background-color: #fff;
             padding: 12px 16px;
+            @media (max-width: 375px) {
+                width: 100%;
+                padding: 8px;
+            }
             .personal-avatar-profile{
                 display: flex;
                 .username-profile{
