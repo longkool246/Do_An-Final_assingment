@@ -8,6 +8,12 @@
   align-items: center;
 }
 
+.breadcrumb__link {
+  @media (max-width: 375px) {
+    font-size: 10px;
+  }
+}
+
 .breadcrumb__link--forward {
   a {
     color: var(--color-primary);
