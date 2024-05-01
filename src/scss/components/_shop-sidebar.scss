@@ -4,6 +4,29 @@
   padding: 16px 24px;
   border-radius: 4px;
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.12);
+  @media (max-width: 375px) {
+    display: none;
+  }
+}
+
+.mb-sort {
+  display: none;
+  @media (max-width: 375px) {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px;
+    gap: 6px;
+    border-radius: 4px;
+    border: 1px solid #D0D5DD;
+    background: #FFF;
+  }
+}
+
+.mb-sort__text {
+  color: #101828;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .shop-sidebar__box {
@@ -179,4 +202,64 @@
         }
       }
   }
+}
+
+.sort {
+  display: none;
+}
+
+@media (max-width: 375px) {
+  .sort {
+    display: block;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    bottom: -700px;
+    height: 70vh;
+    right: 0%;
+    z-index: 99;
+    transition: all 0.5s ease-out;
+    border-radius: 4px 4px 0px 0px;
+    box-shadow: 0px -2px 6px 0px rgba(0, 0, 0, 0.06);
+    padding-top: 8px;
+  }
+}
+
+.sort-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+}
+
+.checkbox-main {
+  border-bottom: 1px solid #EAECF0;
+}
+
+.choose--mb {
+  padding: 12px 0;
+}
+
+.sort-bottom {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.button {
+  padding: 12px 24px;
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+}
+
+.button--white {
+  border: 1px solid #D0D5DD;
+  color: #101828;
+}
+
+.button--blue {
+  background-color: var(--color-blue);
+  color: #fff;
 }

@@ -1,4 +1,28 @@
 document.addEventListener("DOMContentLoaded", function () {
+  const sort = document.querySelector(".mb-sort");
+  const sortBox = document.querySelector(".sort");
+
+  sort.addEventListener("click", function () {
+    console.log("Clicked!"); 
+    sortBox.style.bottom = "0";
+  });
+
+  const closeSort = document.querySelector(".close-sort");
+
+  if (closeSort) {
+    closeSort.addEventListener("click", function () {
+      sortBox.style.bottom = "-700px";
+    });
+  } else {
+    console.error(
+      "Không tìm thấy phần tử"
+    );
+  }
+});
+
+//
+
+document.addEventListener("DOMContentLoaded", function () {
   const mbHeaderLeft = document.querySelector(".mb-header-left");
   const navigation = document.querySelector(".navigation");
 
@@ -18,6 +42,10 @@ document.addEventListener("DOMContentLoaded", function () {
     );
   }
 });
+
+//
+
+
 
 // Sticky_Menu
 window.addEventListener("scroll", function () {
