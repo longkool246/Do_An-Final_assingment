@@ -20,6 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+const showfilter = () => {
+  console.log("11111");
+}
+
 //
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -61,7 +65,7 @@ window.addEventListener("scroll", function () {
 window.addEventListener("scroll", function () {
   var headermobi = document.querySelector(".header-mobile");
   if (window.scrollY > 0) {
-    headermoni.classList.add("sticky");
+    headermobi.classList.add("sticky");
   } else {
     headermobi.classList.remove("sticky");
   }
