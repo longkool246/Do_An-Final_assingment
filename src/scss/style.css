@@ -594,6 +594,12 @@ select {
   transition: transform 0.5s ease, height 0.2s ease;
   z-index: 3;
 }
+@media (max-width: 375px) {
+  .wrapper {
+    width: 354px;
+    left: 3%;
+  }
+}
 
 .wrapper.active-popup {
   transform: scale(1);
@@ -615,7 +621,7 @@ select {
   align-items: center;
   border-bottom-left-radius: 20px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 999;
 }
 
 .wrapper .form-box {
@@ -744,6 +750,11 @@ select {
   border-radius: 4px;
   border: 1px solid #D0D5DD;
   background: #FFF;
+}
+@media (max-width: 375px) {
+  .method__item {
+    padding: 12px 36px;
+  }
 }
 
 .remember-forgot label input {
@@ -963,7 +974,7 @@ select {
   right: 120%;
   flex-direction: column;
   gap: 20px;
-  z-index: 99;
+  z-index: 2;
   transition: all 0.5s ease-out;
 }
 
@@ -989,6 +1000,10 @@ select {
   bottom: 0;
   padding-left: 8px;
   padding-bottom: 8px;
+}
+
+.sign-in-mobile__left span {
+  font-weight: 400;
 }
 
 .breadcrumb {
@@ -1242,12 +1257,22 @@ select {
   line-height: 1.5;
   padding-bottom: 9px;
 }
+@media (max-width: 375px) {
+  .news__title {
+    font-size: 20px;
+  }
+}
 
 .news__content {
   color: var(--text-primary);
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
+}
+@media (max-width: 375px) {
+  .news__content {
+    font-size: 16px;
+  }
 }
 
 .news__stress {
@@ -1256,12 +1281,24 @@ select {
   font-weight: 700;
   line-height: 1.5;
 }
+@media (max-width: 375px) {
+  .news__stress {
+    font-size: 16px;
+  }
+}
 
 .source {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
   color: var(--text-primary);
+}
+@media (max-width: 375px) {
+  .source {
+    font-size: 12px;
+    text-align: end;
+    padding-bottom: 8px;
+  }
 }
 
 .tags {

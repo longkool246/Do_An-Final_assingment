@@ -71,6 +71,8 @@ window.addEventListener("scroll", function () {
   }
 });
 
+//
+
 const wrapper = document.querySelector(".wrapper");
 const loginLink = document.querySelector(".login-link");
 const registerLink = document.querySelector(".register-link");
@@ -81,19 +83,55 @@ const test = document.querySelectorAll(".test");
 registerLink.addEventListener("click", () => {
   wrapper.classList.add("active");
   test.forEach((element) => {
+    console.log("1");
     element.classList.add("active");
   });
 });
 
 loginLink.addEventListener("click", () => {
+  console.log("2");
   wrapper.classList.remove("active");
 });
 
 btnPopup.addEventListener("click", () => {
+  console.log("3");
   wrapper.classList.add("active-popup");
 });
 
 iconClose.addEventListener("click", () => {
+  console.log("4");
+  wrapper.classList.remove("active-popup");
+});
+
+//
+
+const wrapperMb = document.querySelector(".wrapper");
+const loginLinkMb = document.querySelector(".login-link");
+const registerLinkMb = document.querySelector(".register-link");
+const btnPopupMb = document.querySelector(".sign-in-mobile");
+const iconCloseMb = document.querySelector(".icon-close");
+const testMb = document.querySelectorAll(".test");
+
+registerLinkMb.addEventListener("click", () => {
+  wrapperMb.classList.add("active");
+  test.forEach((element) => {
+    console.log("1");
+    element.classList.add("active");
+  });
+});
+
+loginLinkMb.addEventListener("click", () => {
+  console.log("2");
+  wrapper.classList.remove("active");
+});
+
+btnPopupMb.addEventListener("click", () => {
+  console.log("3");
+  wrapper.classList.add("active-popup");
+});
+
+iconCloseMb.addEventListener("click", () => {
+  console.log("4");
   wrapper.classList.remove("active-popup");
 });
 
@@ -108,6 +146,15 @@ headerBars.addEventListener("click", () => {
 iconClose.addEventListener("click", () => {
   overlay.classList.remove("show-overlay");
   headerRight.classList.remove("show-menu");
+});
+
+//
+
+const headerBarsMb = document.querySelector(".sign-in-mobile");
+const overlayMb = document.querySelector(".header__overlay");
+
+headerBarsMb.addEventListener("click", () => {
+  overlayMb.classList.toggle("show-overlay");
 });
 
 //*//

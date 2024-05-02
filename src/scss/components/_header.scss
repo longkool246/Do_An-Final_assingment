@@ -271,7 +271,7 @@
   right: 120%;
   flex-direction: column;
   gap: 20px;
-  z-index: 99;
+  z-index: 2;
   transition:all 0.5s ease-out;
 }
 
@@ -297,4 +297,10 @@
   bottom: 0;
   padding-left: 8px;
   padding-bottom: 8px;
+}
+
+.sign-in-mobile__left {
+  span {
+    font-weight: 400;
+  }
 }
