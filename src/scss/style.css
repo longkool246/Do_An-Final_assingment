@@ -207,6 +207,11 @@ select {
   box-shadow: 0px 5px 6px -6px #999999;
   transition: 0.3s ease-in;
 }
+@media (max-width: 375px) {
+  .sticky {
+    padding: 1px 0;
+  }
+}
 
 .header-wrap {
   margin: 0 auto;
@@ -1004,6 +1009,10 @@ select {
 
 .sign-in-mobile__left span {
   font-weight: 400;
+}
+
+.sign-in-mobile__right {
+  padding-left: 56px;
 }
 
 .breadcrumb {
