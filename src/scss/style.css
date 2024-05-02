@@ -202,7 +202,7 @@ select {
 .sticky {
   position: fixed;
   width: 100%;
-  z-index: 100;
+  z-index: 2;
   padding: 20px 0;
   box-shadow: 0px 5px 6px -6px #999999;
   transition: 0.3s ease-in;
@@ -581,7 +581,7 @@ select {
 }
 
 .wrapper {
-  position: absolute;
+  position: fixed;
   width: 500px;
   background: #fff;
   border: 2px solid rgba(255, 255, 255, 0.5);
@@ -2428,9 +2428,6 @@ select {
 .statistic-wrapper .container-wrapper .header-container .functions .list-btn img {
   cursor: pointer;
 }
-.statistic-wrapper .container-wrapper .header-container .functions .list-btn .users {
-  padding: 8px 0 8px 0;
-}
 .statistic-wrapper .container-wrapper .header-container .functions .list-btn .users a {
   font-size: 16px;
   color: #101828;
@@ -2601,7 +2598,7 @@ select {
 }
 .product-content-container .header-product-content-container .product-btn-function .add-product a {
   color: #FFF;
-  font-size: 16px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 600;
   transition: all 0.3 ease;
@@ -2711,7 +2708,7 @@ select {
 }
 .customer-content-container .header-customer-content-container .customer-btn-function .add-customer a {
   color: #FFF;
-  font-size: 16px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 600;
   transition: all 0.3 ease;
@@ -2818,10 +2815,11 @@ select {
   background-color: #1982F8;
   border: 0;
   gap: 8px;
+  align-items: center;
 }
 .employee-content-container .header-employee-content-container .employee-btn-function .add-employee a {
   color: #FFF;
-  font-size: 16px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 600;
   transition: all 0.3 ease;
