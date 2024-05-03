@@ -346,6 +346,21 @@ select {
 
 .sign-in-icon {
   padding: 8px;
+  display: flex;
+}
+
+.icon-cart {
+  position: relative;
+  display: flex;
+}
+.icon-cart::before {
+  position: absolute;
+  content: "1";
+  padding: 2px 10px;
+  border-radius: 50%;
+  top: -10px;
+  left: 50%;
+  background-color: yellow;
 }
 
 .popup-user {
