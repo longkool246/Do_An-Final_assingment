@@ -283,27 +283,57 @@ line-height: 1.5;
 
 
 .custom-input-number {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   position: relative;
   justify-content: end;
+  padding: 4px;
+  border: 1px solid #667085;
+  border-radius: 4px;
 }
 
-.decrement {
-  position: absolute;
-  z-index: 99;
-  border: none;
-  left: 82%;
-  background: none;
-}
+// .decrement {
+//   position: absolute;
+//   z-index: 99;
+//   border: none;
+//   left: 82%;
+//   background: none;
+// }
 
-.increment {
-  position: absolute;
-  z-index: 99;
-  border: none;
-  right: 3%;
-  background: none;
+// .increment {
+//   position: absolute;
+//   z-index: 99;
+//   border: none;
+//   right: 3%;
+//   background: none;
+// }
+
+input[type="number"]{
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    background-color: #ffffff;
+    color: #202030;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+button{
+    background-color: #ffffff;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+// #decrement{
+//     padding: 15px 5px 15px 25px;
+//     border-radius: 45px 0 0 45px;
+// }
+// #increment{
+//     padding: 15px 25px 15px 5px;
+//     border-radius: 0 45px 45px 0;
+// }
 
 .number-input {
   width: 70px;

@@ -280,9 +280,9 @@
                 <p class="cart-product__discount pb-16">22.990.000đ</p>
                 <div class="cart-product__quantity">
                   <div class="custom-input-number">
-                    <button class="decrement">-</button>
-                    <input type="number" class="number-input" min="0" max="100" value="0">
-                    <button class="increment">+</button>
+                    <button id="decrement" onclick="stepper(this)"> - </button>
+                    <input type="number" min="0" max="100" step="1" value="1" id="my-input" readonly>
+                    <button id="increment" onclick="stepper(this)"> + </button>
                   </div>
                   
                   
