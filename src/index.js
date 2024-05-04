@@ -198,3 +198,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+//
+function redirectToEmptyPage() {
+  // Chuyển hướng đến trang product-empty.html
+  window.location.href = 'product-empty.html';
+}
