@@ -15,7 +15,13 @@
 }
 
 .breadcrumb__link--forward {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
   a {
     color: var(--color-primary);
+  }
+  @media (max-width: 375px) {
+    width: 50%;
   }
 }

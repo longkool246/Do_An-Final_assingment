@@ -1046,8 +1046,18 @@ select {
   }
 }
 
+.breadcrumb__link--forward {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
 .breadcrumb__link--forward a {
   color: var(--color-primary);
+}
+@media (max-width: 375px) {
+  .breadcrumb__link--forward {
+    width: 50%;
+  }
 }
 
 .hot-news__main {
@@ -1191,7 +1201,7 @@ select {
 }
 @media (max-width: 375px) {
   .show-more__text {
-    padding: 12px 110px;
+    padding: 12px 100px;
     font-size: 16px;
   }
 }
